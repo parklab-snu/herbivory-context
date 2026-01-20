@@ -1,0 +1,13 @@
+"","key","treatment","type","preference"
+"1","lm","hyper","feeding",17
+"2","lm","hyper","nest",3
+"3","lm","meso","feeding",18
+"4","lm","meso","nest",7
+"5","lp","hyper","feeding",16
+"6","lp","hyper","nest",5
+"7","lp","meso","feeding",15
+"8","lp","meso","nest",4
+"9","sp","hyper","feeding",5
+"10","sp","hyper","nest",30
+"11","sp","meso","feeding",5
+"12","sp","meso","nest",27

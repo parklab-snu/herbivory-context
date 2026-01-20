@@ -1,0 +1,433 @@
+"","day","condition","treatment","replication","species","area"
+"1",0,"hyper","no herbivore-ETA",1,"sp",5.402
+"2",0,"hyper","no herbivore-ETA",2,"sp",5.955
+"3",0,"hyper","no herbivore-ETA",3,"sp",5.842
+"4",0,"hyper","no herbivore-ETA",4,"sp",6.091
+"5",0,"hyper","no herbivore-ETA",5,"sp",6.381
+"6",0,"hyper","no herbivore-ETA",6,"sp",6.309
+"7",0,"hyper","no herbivore-ETA",1,"lp",6.068
+"8",0,"hyper","no herbivore-ETA",2,"lp",6.494
+"9",0,"hyper","no herbivore-ETA",3,"lp",5.815
+"10",0,"hyper","no herbivore-ETA",4,"lp",6.929
+"11",0,"hyper","no herbivore-ETA",5,"lp",6.133
+"12",0,"hyper","no herbivore-ETA",6,"lp",6.807
+"13",0,"hyper","no herbivore-ETA",1,"lm",6.1
+"14",0,"hyper","no herbivore-ETA",2,"lm",6.946
+"15",0,"hyper","no herbivore-ETA",3,"lm",6.36
+"16",0,"hyper","no herbivore-ETA",4,"lm",5.85
+"17",0,"hyper","no herbivore-ETA",5,"lm",6.166
+"18",0,"hyper","no herbivore-ETA",6,"lm",5.99
+"19",0,"hyper","TLE-ETA",1,"sp",6.011
+"20",0,"hyper","TLE-ETA",2,"sp",5.879
+"21",0,"hyper","TLE-ETA",3,"sp",6.41
+"22",0,"hyper","TLE-ETA",4,"sp",6.23
+"23",0,"hyper","TLE-ETA",5,"sp",6.211
+"24",0,"hyper","TLE-ETA",6,"sp",7.306
+"25",0,"hyper","TLE-ETA",1,"lp",5.648
+"26",0,"hyper","TLE-ETA",2,"lp",5.648
+"27",0,"hyper","TLE-ETA",3,"lp",6.535
+"28",0,"hyper","TLE-ETA",4,"lp",6.256
+"29",0,"hyper","TLE-ETA",5,"lp",6.369
+"30",0,"hyper","TLE-ETA",6,"lp",6.561
+"31",0,"hyper","TLE-ETA",1,"lm",7.322
+"32",0,"hyper","TLE-ETA",2,"lm",6.911
+"33",0,"hyper","TLE-ETA",3,"lm",6.68
+"34",0,"hyper","TLE-ETA",4,"lm",6.257
+"35",0,"hyper","TLE-ETA",5,"lm",5.793
+"36",0,"hyper","TLE-ETA",6,"lm",5.463
+"37",0,"hyper","RNE-ETA",1,"sp",6.199
+"38",0,"hyper","RNE-ETA",2,"sp",5.694
+"39",0,"hyper","RNE-ETA",3,"sp",5.565
+"40",0,"hyper","RNE-ETA",4,"sp",6.726
+"41",0,"hyper","RNE-ETA",5,"sp",6.262
+"42",0,"hyper","RNE-ETA",6,"sp",7.117
+"43",0,"hyper","RNE-ETA",1,"lp",6.014
+"44",0,"hyper","RNE-ETA",2,"lp",6.15
+"45",0,"hyper","RNE-ETA",3,"lp",5.996
+"46",0,"hyper","RNE-ETA",4,"lp",6.287
+"47",0,"hyper","RNE-ETA",5,"lp",6.303
+"48",0,"hyper","RNE-ETA",6,"lp",6.222
+"49",0,"hyper","RNE-ETA",1,"lm",6.181
+"50",0,"hyper","RNE-ETA",2,"lm",6.947
+"51",0,"hyper","RNE-ETA",3,"lm",6.239
+"52",0,"hyper","RNE-ETA",4,"lm",5.61
+"53",0,"hyper","RNE-ETA",5,"lm",6.121
+"54",0,"hyper","RNE-ETA",6,"lm",5.365
+"55",0,"hyper","TLExRNE-ETA",1,"sp",6.2
+"56",0,"hyper","TLExRNE-ETA",2,"sp",5.851
+"57",0,"hyper","TLExRNE-ETA",3,"sp",6.083
+"58",0,"hyper","TLExRNE-ETA",4,"sp",6.839
+"59",0,"hyper","TLExRNE-ETA",5,"sp",6.401
+"60",0,"hyper","TLExRNE-ETA",6,"sp",6.442
+"61",0,"hyper","TLExRNE-ETA",1,"lp",5.938
+"62",0,"hyper","TLExRNE-ETA",2,"lp",5.93
+"63",0,"hyper","TLExRNE-ETA",3,"lp",6.091
+"64",0,"hyper","TLExRNE-ETA",4,"lp",6.565
+"65",0,"hyper","TLExRNE-ETA",5,"lp",6.529
+"66",0,"hyper","TLExRNE-ETA",6,"lp",5.995
+"67",0,"hyper","TLExRNE-ETA",1,"lm",6.307
+"68",0,"hyper","TLExRNE-ETA",2,"lm",6.796
+"69",0,"hyper","TLExRNE-ETA",3,"lm",6.065
+"70",0,"hyper","TLExRNE-ETA",4,"lm",5.88
+"71",0,"hyper","TLExRNE-ETA",5,"lm",6.096
+"72",0,"hyper","TLExRNE-ETA",6,"lm",6.464
+"73",3,"hyper","no herbivore-ETA",1,"sp",14.811
+"74",3,"hyper","no herbivore-ETA",2,"sp",16.433
+"75",3,"hyper","no herbivore-ETA",3,"sp",16.427
+"76",3,"hyper","no herbivore-ETA",4,"sp",17.748
+"77",3,"hyper","no herbivore-ETA",5,"sp",17.823
+"78",3,"hyper","no herbivore-ETA",6,"sp",16.774
+"79",3,"hyper","no herbivore-ETA",1,"lp",17.403
+"80",3,"hyper","no herbivore-ETA",2,"lp",18.396
+"81",3,"hyper","no herbivore-ETA",3,"lp",16.047
+"82",3,"hyper","no herbivore-ETA",4,"lp",19.466
+"83",3,"hyper","no herbivore-ETA",5,"lp",17.591
+"84",3,"hyper","no herbivore-ETA",6,"lp",20.092
+"85",3,"hyper","no herbivore-ETA",1,"lm",12.391
+"86",3,"hyper","no herbivore-ETA",2,"lm",14.342
+"87",3,"hyper","no herbivore-ETA",3,"lm",11.836
+"88",3,"hyper","no herbivore-ETA",4,"lm",11.721
+"89",3,"hyper","no herbivore-ETA",5,"lm",13.193
+"90",3,"hyper","no herbivore-ETA",6,"lm",11.946
+"91",3,"hyper","TLE-ETA",1,"sp",14.827
+"92",3,"hyper","TLE-ETA",2,"sp",14.54
+"93",3,"hyper","TLE-ETA",3,"sp",15.645
+"94",3,"hyper","TLE-ETA",4,"sp",15.612
+"95",3,"hyper","TLE-ETA",5,"sp",16.822
+"96",3,"hyper","TLE-ETA",6,"sp",18.567
+"97",3,"hyper","TLE-ETA",1,"lp",13.159
+"98",3,"hyper","TLE-ETA",2,"lp",12.925
+"99",3,"hyper","TLE-ETA",3,"lp",17.425
+"100",3,"hyper","TLE-ETA",4,"lp",16.976
+"101",3,"hyper","TLE-ETA",5,"lp",17.409
+"102",3,"hyper","TLE-ETA",6,"lp",16.217
+"103",3,"hyper","TLE-ETA",1,"lm",12.984
+"104",3,"hyper","TLE-ETA",2,"lm",12.322
+"105",3,"hyper","TLE-ETA",3,"lm",11.883
+"106",3,"hyper","TLE-ETA",4,"lm",11.675
+"107",3,"hyper","TLE-ETA",5,"lm",11.168
+"108",3,"hyper","TLE-ETA",6,"lm",9.516
+"109",3,"hyper","RNE-ETA",1,"sp",16.709
+"110",3,"hyper","RNE-ETA",2,"sp",14.778
+"111",3,"hyper","RNE-ETA",3,"sp",15.576
+"112",3,"hyper","RNE-ETA",4,"sp",18.992
+"113",3,"hyper","RNE-ETA",5,"sp",17.458
+"114",3,"hyper","RNE-ETA",6,"sp",18.305
+"115",3,"hyper","RNE-ETA",1,"lp",17.388
+"116",3,"hyper","RNE-ETA",2,"lp",18.502
+"117",3,"hyper","RNE-ETA",3,"lp",16.052
+"118",3,"hyper","RNE-ETA",4,"lp",18.292
+"119",3,"hyper","RNE-ETA",5,"lp",18.574
+"120",3,"hyper","RNE-ETA",6,"lp",18.965
+"121",3,"hyper","RNE-ETA",1,"lm",11.829
+"122",3,"hyper","RNE-ETA",2,"lm",14.032
+"123",3,"hyper","RNE-ETA",3,"lm",12.189
+"124",3,"hyper","RNE-ETA",4,"lm",10.678
+"125",3,"hyper","RNE-ETA",5,"lm",12.576
+"126",3,"hyper","RNE-ETA",6,"lm",10.293
+"127",3,"hyper","TLExRNE-ETA",1,"sp",15.03
+"128",3,"hyper","TLExRNE-ETA",2,"sp",14.108
+"129",3,"hyper","TLExRNE-ETA",3,"sp",14.982
+"130",3,"hyper","TLExRNE-ETA",4,"sp",17.11
+"131",3,"hyper","TLExRNE-ETA",5,"sp",17.509
+"132",3,"hyper","TLExRNE-ETA",6,"sp",16.599
+"133",3,"hyper","TLExRNE-ETA",1,"lp",14.154
+"134",3,"hyper","TLExRNE-ETA",2,"lp",14.266
+"135",3,"hyper","TLExRNE-ETA",3,"lp",14.354
+"136",3,"hyper","TLExRNE-ETA",4,"lp",15.428
+"137",3,"hyper","TLExRNE-ETA",5,"lp",17.355
+"138",3,"hyper","TLExRNE-ETA",6,"lp",15.089
+"139",3,"hyper","TLExRNE-ETA",1,"lm",11.103
+"140",3,"hyper","TLExRNE-ETA",2,"lm",11.2
+"141",3,"hyper","TLExRNE-ETA",3,"lm",10.353
+"142",3,"hyper","TLExRNE-ETA",4,"lm",10.143
+"143",3,"hyper","TLExRNE-ETA",5,"lm",11.441
+"144",3,"hyper","TLExRNE-ETA",6,"lm",11.514
+"145",5,"hyper","no herbivore-ETA",1,"sp",13.506
+"146",5,"hyper","no herbivore-ETA",2,"sp",19.451
+"147",5,"hyper","no herbivore-ETA",3,"sp",4.835
+"148",5,"hyper","no herbivore-ETA",4,"sp",17.766
+"149",5,"hyper","no herbivore-ETA",5,"sp",5.459
+"150",5,"hyper","no herbivore-ETA",6,"sp",16.71
+"151",5,"hyper","no herbivore-ETA",1,"lp",26.939
+"152",5,"hyper","no herbivore-ETA",2,"lp",27.14
+"153",5,"hyper","no herbivore-ETA",3,"lp",14.694
+"154",5,"hyper","no herbivore-ETA",4,"lp",30.303
+"155",5,"hyper","no herbivore-ETA",5,"lp",20.804
+"156",5,"hyper","no herbivore-ETA",6,"lp",26.752
+"157",5,"hyper","no herbivore-ETA",1,"lm",11.419
+"158",5,"hyper","no herbivore-ETA",2,"lm",14.709
+"159",5,"hyper","no herbivore-ETA",3,"lm",7.375
+"160",5,"hyper","no herbivore-ETA",4,"lm",11.675
+"161",5,"hyper","no herbivore-ETA",5,"lm",8.865
+"162",5,"hyper","no herbivore-ETA",6,"lm",11.826
+"163",5,"hyper","TLE-ETA",1,"sp",2.162
+"164",5,"hyper","TLE-ETA",2,"sp",6.353
+"165",5,"hyper","TLE-ETA",3,"sp",6.01
+"166",5,"hyper","TLE-ETA",4,"sp",6.972
+"167",5,"hyper","TLE-ETA",5,"sp",19.148
+"168",5,"hyper","TLE-ETA",6,"sp",5.484
+"169",5,"hyper","TLE-ETA",1,"lp",11.872
+"170",5,"hyper","TLE-ETA",2,"lp",14.929
+"171",5,"hyper","TLE-ETA",3,"lp",18.985
+"172",5,"hyper","TLE-ETA",4,"lp",13.369
+"173",5,"hyper","TLE-ETA",5,"lp",23.716
+"174",5,"hyper","TLE-ETA",6,"lp",16.048
+"175",5,"hyper","TLE-ETA",1,"lm",10.335
+"176",5,"hyper","TLE-ETA",2,"lm",7.487
+"177",5,"hyper","TLE-ETA",3,"lm",6.981
+"178",5,"hyper","TLE-ETA",4,"lm",8.597
+"179",5,"hyper","TLE-ETA",5,"lm",9.047
+"180",5,"hyper","TLE-ETA",6,"lm",4.378
+"181",5,"hyper","RNE-ETA",1,"sp",7.785
+"182",5,"hyper","RNE-ETA",2,"sp",5.716
+"183",5,"hyper","RNE-ETA",3,"sp",4.692
+"184",5,"hyper","RNE-ETA",4,"sp",1.359
+"185",5,"hyper","RNE-ETA",5,"sp",7.945
+"186",5,"hyper","RNE-ETA",6,"sp",9.054
+"187",5,"hyper","RNE-ETA",1,"lp",20.57
+"188",5,"hyper","RNE-ETA",2,"lp",18.831
+"189",5,"hyper","RNE-ETA",3,"lp",16.104
+"190",5,"hyper","RNE-ETA",4,"lp",22.649
+"191",5,"hyper","RNE-ETA",5,"lp",21.233
+"192",5,"hyper","RNE-ETA",6,"lp",23.915
+"193",5,"hyper","RNE-ETA",1,"lm",5.165
+"194",5,"hyper","RNE-ETA",2,"lm",9.004
+"195",5,"hyper","RNE-ETA",3,"lm",7.176
+"196",5,"hyper","RNE-ETA",4,"lm",9.057
+"197",5,"hyper","RNE-ETA",5,"lm",9.498
+"198",5,"hyper","RNE-ETA",6,"lm",7.387
+"199",5,"hyper","TLExRNE-ETA",1,"sp",3.132
+"200",5,"hyper","TLExRNE-ETA",2,"sp",2.762
+"201",5,"hyper","TLExRNE-ETA",3,"sp",7.024
+"202",5,"hyper","TLExRNE-ETA",4,"sp",17.88
+"203",5,"hyper","TLExRNE-ETA",5,"sp",7.999
+"204",5,"hyper","TLExRNE-ETA",6,"sp",7.93
+"205",5,"hyper","TLExRNE-ETA",1,"lp",15.148
+"206",5,"hyper","TLExRNE-ETA",2,"lp",11.625
+"207",5,"hyper","TLExRNE-ETA",3,"lp",11.787
+"208",5,"hyper","TLExRNE-ETA",4,"lp",20.107
+"209",5,"hyper","TLExRNE-ETA",5,"lp",13.538
+"210",5,"hyper","TLExRNE-ETA",6,"lp",10.488
+"211",5,"hyper","TLExRNE-ETA",1,"lm",4.202
+"212",5,"hyper","TLExRNE-ETA",2,"lm",6.434
+"213",5,"hyper","TLExRNE-ETA",3,"lm",7.471
+"214",5,"hyper","TLExRNE-ETA",4,"lm",10.767
+"215",5,"hyper","TLExRNE-ETA",5,"lm",6.786
+"216",5,"hyper","TLExRNE-ETA",6,"lm",5.457
+"217",0,"meso","no herbivore-ETA",1,"sp",6.344
+"218",0,"meso","no herbivore-ETA",2,"sp",6.705
+"219",0,"meso","no herbivore-ETA",3,"sp",5.311
+"220",0,"meso","no herbivore-ETA",4,"sp",6.036
+"221",0,"meso","no herbivore-ETA",5,"sp",5.745
+"222",0,"meso","no herbivore-ETA",6,"sp",5.374
+"223",0,"meso","no herbivore-ETA",1,"lp",5.793
+"224",0,"meso","no herbivore-ETA",2,"lp",6.249
+"225",0,"meso","no herbivore-ETA",3,"lp",6.248
+"226",0,"meso","no herbivore-ETA",4,"lp",6.177
+"227",0,"meso","no herbivore-ETA",5,"lp",6.298
+"228",0,"meso","no herbivore-ETA",6,"lp",6.021
+"229",0,"meso","no herbivore-ETA",1,"lm",5.454
+"230",0,"meso","no herbivore-ETA",2,"lm",5.268
+"231",0,"meso","no herbivore-ETA",3,"lm",5.675
+"232",0,"meso","no herbivore-ETA",4,"lm",5.048
+"233",0,"meso","no herbivore-ETA",5,"lm",6.083
+"234",0,"meso","no herbivore-ETA",6,"lm",6.016
+"235",0,"meso","TLE-ETA",1,"sp",5.793
+"236",0,"meso","TLE-ETA",2,"sp",6.084
+"237",0,"meso","TLE-ETA",3,"sp",6.006
+"238",0,"meso","TLE-ETA",4,"sp",5.863
+"239",0,"meso","TLE-ETA",5,"sp",5.482
+"240",0,"meso","TLE-ETA",6,"sp",6.183
+"241",0,"meso","TLE-ETA",1,"lp",6.263
+"242",0,"meso","TLE-ETA",2,"lp",5.901
+"243",0,"meso","TLE-ETA",3,"lp",6.077
+"244",0,"meso","TLE-ETA",4,"lp",6.214
+"245",0,"meso","TLE-ETA",5,"lp",6.062
+"246",0,"meso","TLE-ETA",6,"lp",6.032
+"247",0,"meso","TLE-ETA",1,"lm",5.657
+"248",0,"meso","TLE-ETA",2,"lm",5.402
+"249",0,"meso","TLE-ETA",3,"lm",6.126
+"250",0,"meso","TLE-ETA",4,"lm",6.011
+"251",0,"meso","TLE-ETA",5,"lm",6.177
+"252",0,"meso","TLE-ETA",6,"lm",5.705
+"253",0,"meso","RNE-ETA",1,"sp",5.715
+"254",0,"meso","RNE-ETA",2,"sp",5.687
+"255",0,"meso","RNE-ETA",3,"sp",6.241
+"256",0,"meso","RNE-ETA",4,"sp",6.053
+"257",0,"meso","RNE-ETA",5,"sp",6.561
+"258",0,"meso","RNE-ETA",6,"sp",5.884
+"259",0,"meso","RNE-ETA",1,"lp",6.062
+"260",0,"meso","RNE-ETA",2,"lp",6.327
+"261",0,"meso","RNE-ETA",3,"lp",5.753
+"262",0,"meso","RNE-ETA",4,"lp",6.22
+"263",0,"meso","RNE-ETA",5,"lp",5.899
+"264",0,"meso","RNE-ETA",6,"lp",5.878
+"265",0,"meso","RNE-ETA",1,"lm",5.588
+"266",0,"meso","RNE-ETA",2,"lm",5.18
+"267",0,"meso","RNE-ETA",3,"lm",6.454
+"268",0,"meso","RNE-ETA",4,"lm",5.915
+"269",0,"meso","RNE-ETA",5,"lm",5.771
+"270",0,"meso","RNE-ETA",6,"lm",5.621
+"271",0,"meso","TLExRNE-ETA",1,"sp",5.73
+"272",0,"meso","TLExRNE-ETA",2,"sp",5.722
+"273",0,"meso","TLExRNE-ETA",3,"sp",5.894
+"274",0,"meso","TLExRNE-ETA",4,"sp",6.062
+"275",0,"meso","TLExRNE-ETA",5,"sp",5.188
+"276",0,"meso","TLExRNE-ETA",6,"sp",5.978
+"277",0,"meso","TLExRNE-ETA",1,"lp",5.595
+"278",0,"meso","TLExRNE-ETA",2,"lp",6.631
+"279",0,"meso","TLExRNE-ETA",3,"lp",6.091
+"280",0,"meso","TLExRNE-ETA",4,"lp",5.974
+"281",0,"meso","TLExRNE-ETA",5,"lp",5.894
+"282",0,"meso","TLExRNE-ETA",6,"lp",6.285
+"283",0,"meso","TLExRNE-ETA",1,"lm",5.815
+"284",0,"meso","TLExRNE-ETA",2,"lm",6.08
+"285",0,"meso","TLExRNE-ETA",3,"lm",6.31
+"286",0,"meso","TLExRNE-ETA",4,"lm",5.903
+"287",0,"meso","TLExRNE-ETA",5,"lm",6.331
+"288",0,"meso","TLExRNE-ETA",6,"lm",6.071
+"289",3,"meso","no herbivore-ETA",1,"sp",14.809
+"290",3,"meso","no herbivore-ETA",2,"sp",17.029
+"291",3,"meso","no herbivore-ETA",3,"sp",14.001
+"292",3,"meso","no herbivore-ETA",4,"sp",15.756
+"293",3,"meso","no herbivore-ETA",5,"sp",14.337
+"294",3,"meso","no herbivore-ETA",6,"sp",14.272
+"295",3,"meso","no herbivore-ETA",1,"lp",12.184
+"296",3,"meso","no herbivore-ETA",2,"lp",13.729
+"297",3,"meso","no herbivore-ETA",3,"lp",14.888
+"298",3,"meso","no herbivore-ETA",4,"lp",14.974
+"299",3,"meso","no herbivore-ETA",5,"lp",14.923
+"300",3,"meso","no herbivore-ETA",6,"lp",14.121
+"301",3,"meso","no herbivore-ETA",1,"lm",11.21
+"302",3,"meso","no herbivore-ETA",2,"lm",10.736
+"303",3,"meso","no herbivore-ETA",3,"lm",11.79
+"304",3,"meso","no herbivore-ETA",4,"lm",9.437
+"305",3,"meso","no herbivore-ETA",5,"lm",11.785
+"306",3,"meso","no herbivore-ETA",6,"lm",12.439
+"307",3,"meso","TLE-ETA",1,"sp",13.197
+"308",3,"meso","TLE-ETA",2,"sp",13.434
+"309",3,"meso","TLE-ETA",3,"sp",14.441
+"310",3,"meso","TLE-ETA",4,"sp",13.857
+"311",3,"meso","TLE-ETA",5,"sp",12.248
+"312",3,"meso","TLE-ETA",6,"sp",14.888
+"313",3,"meso","TLE-ETA",1,"lp",13.603
+"314",3,"meso","TLE-ETA",2,"lp",11.298
+"315",3,"meso","TLE-ETA",3,"lp",13.003
+"316",3,"meso","TLE-ETA",4,"lp",11.794
+"317",3,"meso","TLE-ETA",5,"lp",13.103
+"318",3,"meso","TLE-ETA",6,"lp",12.342
+"319",3,"meso","TLE-ETA",1,"lm",10.584
+"320",3,"meso","TLE-ETA",2,"lm",9.43
+"321",3,"meso","TLE-ETA",3,"lm",11.81
+"322",3,"meso","TLE-ETA",4,"lm",10.821
+"323",3,"meso","TLE-ETA",5,"lm",11.495
+"324",3,"meso","TLE-ETA",6,"lm",10.752
+"325",3,"meso","RNE-ETA",1,"sp",12.512
+"326",3,"meso","RNE-ETA",2,"sp",12.742
+"327",3,"meso","RNE-ETA",3,"sp",15.217
+"328",3,"meso","RNE-ETA",4,"sp",14.001
+"329",3,"meso","RNE-ETA",5,"sp",15.352
+"330",3,"meso","RNE-ETA",6,"sp",12.76
+"331",3,"meso","RNE-ETA",1,"lp",14.465
+"332",3,"meso","RNE-ETA",2,"lp",13.201
+"333",3,"meso","RNE-ETA",3,"lp",13.588
+"334",3,"meso","RNE-ETA",4,"lp",14.304
+"335",3,"meso","RNE-ETA",5,"lp",13.306
+"336",3,"meso","RNE-ETA",6,"lp",12.548
+"337",3,"meso","RNE-ETA",1,"lm",10.921
+"338",3,"meso","RNE-ETA",2,"lm",9.941
+"339",3,"meso","RNE-ETA",3,"lm",13.31
+"340",3,"meso","RNE-ETA",4,"lm",13.277
+"341",3,"meso","RNE-ETA",5,"lm",11.695
+"342",3,"meso","RNE-ETA",6,"lm",10.604
+"343",3,"meso","TLExRNE-ETA",1,"sp",13.084
+"344",3,"meso","TLExRNE-ETA",2,"sp",12.71
+"345",3,"meso","TLExRNE-ETA",3,"sp",13.339
+"346",3,"meso","TLExRNE-ETA",4,"sp",13.504
+"347",3,"meso","TLExRNE-ETA",5,"sp",11.454
+"348",3,"meso","TLExRNE-ETA",6,"sp",11.894
+"349",3,"meso","TLExRNE-ETA",1,"lp",10.225
+"350",3,"meso","TLExRNE-ETA",2,"lp",12.727
+"351",3,"meso","TLExRNE-ETA",3,"lp",12.886
+"352",3,"meso","TLExRNE-ETA",4,"lp",12.209
+"353",3,"meso","TLExRNE-ETA",5,"lp",11.892
+"354",3,"meso","TLExRNE-ETA",6,"lp",13.728
+"355",3,"meso","TLExRNE-ETA",1,"lm",10.556
+"356",3,"meso","TLExRNE-ETA",2,"lm",11.167
+"357",3,"meso","TLExRNE-ETA",3,"lm",12.321
+"358",3,"meso","TLExRNE-ETA",4,"lm",11.051
+"359",3,"meso","TLExRNE-ETA",5,"lm",11.958
+"360",3,"meso","TLExRNE-ETA",6,"lm",10.662
+"361",5,"meso","no herbivore-ETA",1,"sp",6.708
+"362",5,"meso","no herbivore-ETA",2,"sp",11.308
+"363",5,"meso","no herbivore-ETA",3,"sp",11.668
+"364",5,"meso","no herbivore-ETA",4,"sp",10.054
+"365",5,"meso","no herbivore-ETA",5,"sp",11.116
+"366",5,"meso","no herbivore-ETA",6,"sp",8.545
+"367",5,"meso","no herbivore-ETA",1,"lp",9.622
+"368",5,"meso","no herbivore-ETA",2,"lp",12.9
+"369",5,"meso","no herbivore-ETA",3,"lp",11.048
+"370",5,"meso","no herbivore-ETA",4,"lp",14.311
+"371",5,"meso","no herbivore-ETA",5,"lp",14.88
+"372",5,"meso","no herbivore-ETA",6,"lp",11.967
+"373",5,"meso","no herbivore-ETA",1,"lm",6.501
+"374",5,"meso","no herbivore-ETA",2,"lm",13.794
+"375",5,"meso","no herbivore-ETA",3,"lm",8.937
+"376",5,"meso","no herbivore-ETA",4,"lm",10.253
+"377",5,"meso","no herbivore-ETA",5,"lm",11.475
+"378",5,"meso","no herbivore-ETA",6,"lm",11.481
+"379",5,"meso","TLE-ETA",1,"sp",6.419
+"380",5,"meso","TLE-ETA",2,"sp",7.174
+"381",5,"meso","TLE-ETA",3,"sp",8.97
+"382",5,"meso","TLE-ETA",4,"sp",8.989
+"383",5,"meso","TLE-ETA",5,"sp",2.292
+"384",5,"meso","TLE-ETA",6,"sp",9.686
+"385",5,"meso","TLE-ETA",1,"lp",10.438
+"386",5,"meso","TLE-ETA",2,"lp",7.766
+"387",5,"meso","TLE-ETA",3,"lp",10.837
+"388",5,"meso","TLE-ETA",4,"lp",10.358
+"389",5,"meso","TLE-ETA",5,"lp",10.023
+"390",5,"meso","TLE-ETA",6,"lp",7.595
+"391",5,"meso","TLE-ETA",1,"lm",7.87
+"392",5,"meso","TLE-ETA",2,"lm",8.58
+"393",5,"meso","TLE-ETA",3,"lm",8.104
+"394",5,"meso","TLE-ETA",4,"lm",10.64
+"395",5,"meso","TLE-ETA",5,"lm",9.58
+"396",5,"meso","TLE-ETA",6,"lm",10.907
+"397",5,"meso","RNE-ETA",1,"sp",10.492
+"398",5,"meso","RNE-ETA",2,"sp",9.783
+"399",5,"meso","RNE-ETA",3,"sp",11.527
+"400",5,"meso","RNE-ETA",4,"sp",6.992
+"401",5,"meso","RNE-ETA",5,"sp",11.731
+"402",5,"meso","RNE-ETA",6,"sp",9.59
+"403",5,"meso","RNE-ETA",1,"lp",12.167
+"404",5,"meso","RNE-ETA",2,"lp",12.399
+"405",5,"meso","RNE-ETA",3,"lp",12.34
+"406",5,"meso","RNE-ETA",4,"lp",12.69
+"407",5,"meso","RNE-ETA",5,"lp",10.645
+"408",5,"meso","RNE-ETA",6,"lp",10.568
+"409",5,"meso","RNE-ETA",1,"lm",8.157
+"410",5,"meso","RNE-ETA",2,"lm",12.271
+"411",5,"meso","RNE-ETA",3,"lm",11.092
+"412",5,"meso","RNE-ETA",4,"lm",11.997
+"413",5,"meso","RNE-ETA",5,"lm",11.415
+"414",5,"meso","RNE-ETA",6,"lm",11.339
+"415",5,"meso","TLExRNE-ETA",1,"sp",3.295
+"416",5,"meso","TLExRNE-ETA",2,"sp",4.333
+"417",5,"meso","TLExRNE-ETA",3,"sp",5.801
+"418",5,"meso","TLExRNE-ETA",4,"sp",7.635
+"419",5,"meso","TLExRNE-ETA",5,"sp",6.128
+"420",5,"meso","TLExRNE-ETA",6,"sp",4.396
+"421",5,"meso","TLExRNE-ETA",1,"lp",7.615
+"422",5,"meso","TLExRNE-ETA",2,"lp",10.685
+"423",5,"meso","TLExRNE-ETA",3,"lp",9.181
+"424",5,"meso","TLExRNE-ETA",4,"lp",8.966
+"425",5,"meso","TLExRNE-ETA",5,"lp",8.627
+"426",5,"meso","TLExRNE-ETA",6,"lp",10.75
+"427",5,"meso","TLExRNE-ETA",1,"lm",7.387
+"428",5,"meso","TLExRNE-ETA",2,"lm",9.72
+"429",5,"meso","TLExRNE-ETA",3,"lm",10.436
+"430",5,"meso","TLExRNE-ETA",4,"lm",8.73
+"431",5,"meso","TLExRNE-ETA",5,"lm",10.251
+"432",5,"meso","TLExRNE-ETA",6,"lm",7.633

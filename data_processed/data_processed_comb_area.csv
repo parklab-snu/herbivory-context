@@ -1,0 +1,865 @@
+"","day","condition","treatment","replication","species","area"
+"1",0,"hyper","no herbivore",1,"sp",6.033
+"2",0,"hyper","no herbivore",2,"sp",6.093
+"3",0,"hyper","no herbivore",3,"sp",6.077
+"4",0,"hyper","no herbivore",4,"sp",6.044
+"5",0,"hyper","no herbivore",5,"sp",5.613
+"6",0,"hyper","no herbivore",6,"sp",5.697
+"7",0,"hyper","no herbivore",1,"lp",5.646
+"8",0,"hyper","no herbivore",2,"lp",5.892
+"9",0,"hyper","no herbivore",3,"lp",6.206
+"10",0,"hyper","no herbivore",4,"lp",5.582
+"11",0,"hyper","no herbivore",5,"lp",6.005
+"12",0,"hyper","no herbivore",6,"lp",5.944
+"13",0,"hyper","no herbivore",1,"lm",5.151
+"14",0,"hyper","no herbivore",2,"lm",4.829
+"15",0,"hyper","no herbivore",3,"lm",5.198
+"16",0,"hyper","no herbivore",4,"lm",5.081
+"17",0,"hyper","no herbivore",5,"lm",5.051
+"18",0,"hyper","no herbivore",6,"lm",5.275
+"19",0,"hyper","ETA",1,"sp",6.025
+"20",0,"hyper","ETA",2,"sp",5.597
+"21",0,"hyper","ETA",3,"sp",5.846
+"22",0,"hyper","ETA",4,"sp",6.25
+"23",0,"hyper","ETA",5,"sp",6.908
+"24",0,"hyper","ETA",6,"sp",6.207
+"25",0,"hyper","ETA",1,"lp",5.725
+"26",0,"hyper","ETA",2,"lp",5.683
+"27",0,"hyper","ETA",3,"lp",5.611
+"28",0,"hyper","ETA",4,"lp",5.978
+"29",0,"hyper","ETA",5,"lp",6.13
+"30",0,"hyper","ETA",6,"lp",5.89
+"31",0,"hyper","ETA",1,"lm",5.159
+"32",0,"hyper","ETA",2,"lm",4.537
+"33",0,"hyper","ETA",3,"lm",5.623
+"34",0,"hyper","ETA",4,"lm",5.689
+"35",0,"hyper","ETA",5,"lm",6.063
+"36",0,"hyper","ETA",6,"lm",5.713
+"37",0,"hyper","TLE",1,"sp",5.678
+"38",0,"hyper","TLE",2,"sp",5.979
+"39",0,"hyper","TLE",3,"sp",5.727
+"40",0,"hyper","TLE",4,"sp",6.309
+"41",0,"hyper","TLE",5,"sp",5.965
+"42",0,"hyper","TLE",6,"sp",5.756
+"43",0,"hyper","TLE",1,"lp",5.813
+"44",0,"hyper","TLE",2,"lp",5.909
+"45",0,"hyper","TLE",3,"lp",6.222
+"46",0,"hyper","TLE",4,"lp",6.064
+"47",0,"hyper","TLE",5,"lp",6.265
+"48",0,"hyper","TLE",6,"lp",6.045
+"49",0,"hyper","TLE",1,"lm",5.145
+"50",0,"hyper","TLE",2,"lm",5.532
+"51",0,"hyper","TLE",3,"lm",5.321
+"52",0,"hyper","TLE",4,"lm",5.178
+"53",0,"hyper","TLE",5,"lm",5.158
+"54",0,"hyper","TLE",6,"lm",5.271
+"55",0,"hyper","RNE",1,"sp",6.121
+"56",0,"hyper","RNE",2,"sp",5.801
+"57",0,"hyper","RNE",3,"sp",5.795
+"58",0,"hyper","RNE",4,"sp",6.018
+"59",0,"hyper","RNE",5,"sp",5.929
+"60",0,"hyper","RNE",6,"sp",5.918
+"61",0,"hyper","RNE",1,"lp",5.517
+"62",0,"hyper","RNE",2,"lp",5.039
+"63",0,"hyper","RNE",3,"lp",5.587
+"64",0,"hyper","RNE",4,"lp",6.058
+"65",0,"hyper","RNE",5,"lp",5.782
+"66",0,"hyper","RNE",6,"lp",5.884
+"67",0,"hyper","RNE",1,"lm",5.188
+"68",0,"hyper","RNE",2,"lm",4.655
+"69",0,"hyper","RNE",3,"lm",5.31
+"70",0,"hyper","RNE",4,"lm",4.863
+"71",0,"hyper","RNE",5,"lm",4.829
+"72",0,"hyper","RNE",6,"lm",4.974
+"73",0,"hyper","ETAxTLE",1,"sp",6.543
+"74",0,"hyper","ETAxTLE",2,"sp",5.837
+"75",0,"hyper","ETAxTLE",3,"sp",6.122
+"76",0,"hyper","ETAxTLE",4,"sp",5.911
+"77",0,"hyper","ETAxTLE",5,"sp",6.513
+"78",0,"hyper","ETAxTLE",6,"sp",6.176
+"79",0,"hyper","ETAxTLE",1,"lp",5.945
+"80",0,"hyper","ETAxTLE",2,"lp",5.29
+"81",0,"hyper","ETAxTLE",3,"lp",5.855
+"82",0,"hyper","ETAxTLE",4,"lp",5.787
+"83",0,"hyper","ETAxTLE",5,"lp",6.375
+"84",0,"hyper","ETAxTLE",6,"lp",6.136
+"85",0,"hyper","ETAxTLE",1,"lm",5.813
+"86",0,"hyper","ETAxTLE",2,"lm",5.571
+"87",0,"hyper","ETAxTLE",3,"lm",5.28
+"88",0,"hyper","ETAxTLE",4,"lm",5.175
+"89",0,"hyper","ETAxTLE",5,"lm",5.076
+"90",0,"hyper","ETAxTLE",6,"lm",5.195
+"91",0,"hyper","ETAxRNE",1,"sp",6.034
+"92",0,"hyper","ETAxRNE",2,"sp",5.67
+"93",0,"hyper","ETAxRNE",3,"sp",5.879
+"94",0,"hyper","ETAxRNE",4,"sp",5.963
+"95",0,"hyper","ETAxRNE",5,"sp",6.071
+"96",0,"hyper","ETAxRNE",6,"sp",6.05
+"97",0,"hyper","ETAxRNE",1,"lp",5.609
+"98",0,"hyper","ETAxRNE",2,"lp",5.971
+"99",0,"hyper","ETAxRNE",3,"lp",6.131
+"100",0,"hyper","ETAxRNE",4,"lp",5.159
+"101",0,"hyper","ETAxRNE",5,"lp",6.05
+"102",0,"hyper","ETAxRNE",6,"lp",5.929
+"103",0,"hyper","ETAxRNE",1,"lm",5.228
+"104",0,"hyper","ETAxRNE",2,"lm",5.273
+"105",0,"hyper","ETAxRNE",3,"lm",4.725
+"106",0,"hyper","ETAxRNE",4,"lm",5.195
+"107",0,"hyper","ETAxRNE",5,"lm",4.725
+"108",0,"hyper","ETAxRNE",6,"lm",5.207
+"109",0,"hyper","TLExRNE",1,"sp",5.966
+"110",0,"hyper","TLExRNE",2,"sp",5.378
+"111",0,"hyper","TLExRNE",3,"sp",5.946
+"112",0,"hyper","TLExRNE",4,"sp",6.226
+"113",0,"hyper","TLExRNE",5,"sp",5.758
+"114",0,"hyper","TLExRNE",6,"sp",5.728
+"115",0,"hyper","TLExRNE",1,"lp",5.667
+"116",0,"hyper","TLExRNE",2,"lp",5.827
+"117",0,"hyper","TLExRNE",3,"lp",5.753
+"118",0,"hyper","TLExRNE",4,"lp",6.128
+"119",0,"hyper","TLExRNE",5,"lp",5.622
+"120",0,"hyper","TLExRNE",6,"lp",5.624
+"121",0,"hyper","TLExRNE",1,"lm",5.225
+"122",0,"hyper","TLExRNE",2,"lm",5.153
+"123",0,"hyper","TLExRNE",3,"lm",5.572
+"124",0,"hyper","TLExRNE",4,"lm",5.023
+"125",0,"hyper","TLExRNE",5,"lm",5.282
+"126",0,"hyper","TLExRNE",6,"lm",5.374
+"127",0,"hyper","ETAxTLExRNE",1,"sp",6.287
+"128",0,"hyper","ETAxTLExRNE",2,"sp",6.066
+"129",0,"hyper","ETAxTLExRNE",3,"sp",6.539
+"130",0,"hyper","ETAxTLExRNE",4,"sp",6.121
+"131",0,"hyper","ETAxTLExRNE",5,"sp",6.212
+"132",0,"hyper","ETAxTLExRNE",6,"sp",5.721
+"133",0,"hyper","ETAxTLExRNE",1,"lp",5.644
+"134",0,"hyper","ETAxTLExRNE",2,"lp",5.744
+"135",0,"hyper","ETAxTLExRNE",3,"lp",5.724
+"136",0,"hyper","ETAxTLExRNE",4,"lp",5.644
+"137",0,"hyper","ETAxTLExRNE",5,"lp",5.789
+"138",0,"hyper","ETAxTLExRNE",6,"lp",5.513
+"139",0,"hyper","ETAxTLExRNE",1,"lm",5.643
+"140",0,"hyper","ETAxTLExRNE",2,"lm",5.402
+"141",0,"hyper","ETAxTLExRNE",3,"lm",5.272
+"142",0,"hyper","ETAxTLExRNE",4,"lm",5.094
+"143",0,"hyper","ETAxTLExRNE",5,"lm",5.249
+"144",0,"hyper","ETAxTLExRNE",6,"lm",5.158
+"145",3,"hyper","no herbivore",1,"sp",16.868
+"146",3,"hyper","no herbivore",2,"sp",20.466
+"147",3,"hyper","no herbivore",3,"sp",20.328
+"148",3,"hyper","no herbivore",4,"sp",16.49
+"149",3,"hyper","no herbivore",5,"sp",18.057
+"150",3,"hyper","no herbivore",6,"sp",18.439
+"151",3,"hyper","no herbivore",1,"lp",16.94
+"152",3,"hyper","no herbivore",2,"lp",19.801
+"153",3,"hyper","no herbivore",3,"lp",21.043
+"154",3,"hyper","no herbivore",4,"lp",15.987
+"155",3,"hyper","no herbivore",5,"lp",19.485
+"156",3,"hyper","no herbivore",6,"lp",18.544
+"157",3,"hyper","no herbivore",1,"lm",10.165
+"158",3,"hyper","no herbivore",2,"lm",10.794
+"159",3,"hyper","no herbivore",3,"lm",10.838
+"160",3,"hyper","no herbivore",4,"lm",9.402
+"161",3,"hyper","no herbivore",5,"lm",10.69
+"162",3,"hyper","no herbivore",6,"lm",10.997
+"163",3,"hyper","ETA",1,"sp",4.512
+"164",3,"hyper","ETA",2,"sp",2.871
+"165",3,"hyper","ETA",3,"sp",10.993
+"166",3,"hyper","ETA",4,"sp",2.642
+"167",3,"hyper","ETA",5,"sp",18.346
+"168",3,"hyper","ETA",6,"sp",10.855
+"169",3,"hyper","ETA",1,"lp",5.955
+"170",3,"hyper","ETA",2,"lp",17.557
+"171",3,"hyper","ETA",3,"lp",15.03
+"172",3,"hyper","ETA",4,"lp",3.117
+"173",3,"hyper","ETA",5,"lp",15.773
+"174",3,"hyper","ETA",6,"lp",13.285
+"175",3,"hyper","ETA",1,"lm",4.991
+"176",3,"hyper","ETA",2,"lm",3.108
+"177",3,"hyper","ETA",3,"lm",8.627
+"178",3,"hyper","ETA",4,"lm",1.097
+"179",3,"hyper","ETA",5,"lm",11.469
+"180",3,"hyper","ETA",6,"lm",7.71
+"181",3,"hyper","TLE",1,"sp",16.345
+"182",3,"hyper","TLE",2,"sp",18.15
+"183",3,"hyper","TLE",3,"sp",17.103
+"184",3,"hyper","TLE",4,"sp",16.366
+"185",3,"hyper","TLE",5,"sp",17.806
+"186",3,"hyper","TLE",6,"sp",16.867
+"187",3,"hyper","TLE",1,"lp",15.518
+"188",3,"hyper","TLE",2,"lp",12.713
+"189",3,"hyper","TLE",3,"lp",14.298
+"190",3,"hyper","TLE",4,"lp",13.881
+"191",3,"hyper","TLE",5,"lp",15.408
+"192",3,"hyper","TLE",6,"lp",15.188
+"193",3,"hyper","TLE",1,"lm",9.504
+"194",3,"hyper","TLE",2,"lm",9.484
+"195",3,"hyper","TLE",3,"lm",8.89
+"196",3,"hyper","TLE",4,"lm",8.645
+"197",3,"hyper","TLE",5,"lm",8.839
+"198",3,"hyper","TLE",6,"lm",8.994
+"199",3,"hyper","RNE",1,"sp",18.285
+"200",3,"hyper","RNE",2,"sp",19.042
+"201",3,"hyper","RNE",3,"sp",16.399
+"202",3,"hyper","RNE",4,"sp",15.855
+"203",3,"hyper","RNE",5,"sp",18.675
+"204",3,"hyper","RNE",6,"sp",17.912
+"205",3,"hyper","RNE",1,"lp",17.232
+"206",3,"hyper","RNE",2,"lp",16.594
+"207",3,"hyper","RNE",3,"lp",18.516
+"208",3,"hyper","RNE",4,"lp",17.805
+"209",3,"hyper","RNE",5,"lp",19.381
+"210",3,"hyper","RNE",6,"lp",18.711
+"211",3,"hyper","RNE",1,"lm",10.093
+"212",3,"hyper","RNE",2,"lm",9.194
+"213",3,"hyper","RNE",3,"lm",10.489
+"214",3,"hyper","RNE",4,"lm",8.545
+"215",3,"hyper","RNE",5,"lm",10.265
+"216",3,"hyper","RNE",6,"lm",9.094
+"217",3,"hyper","ETAxTLE",1,"sp",0
+"218",3,"hyper","ETAxTLE",2,"sp",0
+"219",3,"hyper","ETAxTLE",3,"sp",3.15
+"220",3,"hyper","ETAxTLE",4,"sp",0
+"221",3,"hyper","ETAxTLE",5,"sp",0
+"222",3,"hyper","ETAxTLE",6,"sp",13.999
+"223",3,"hyper","ETAxTLE",1,"lp",6.407
+"224",3,"hyper","ETAxTLE",2,"lp",4.158
+"225",3,"hyper","ETAxTLE",3,"lp",5.963
+"226",3,"hyper","ETAxTLE",4,"lp",1.382
+"227",3,"hyper","ETAxTLE",5,"lp",6.631
+"228",3,"hyper","ETAxTLE",6,"lp",10.561
+"229",3,"hyper","ETAxTLE",1,"lm",2.44
+"230",3,"hyper","ETAxTLE",2,"lm",3.23
+"231",3,"hyper","ETAxTLE",3,"lm",4.521
+"232",3,"hyper","ETAxTLE",4,"lm",0.435
+"233",3,"hyper","ETAxTLE",5,"lm",0.544
+"234",3,"hyper","ETAxTLE",6,"lm",5.152
+"235",3,"hyper","ETAxRNE",1,"sp",13.598
+"236",3,"hyper","ETAxRNE",2,"sp",9.109
+"237",3,"hyper","ETAxRNE",3,"sp",9.197
+"238",3,"hyper","ETAxRNE",4,"sp",9.071
+"239",3,"hyper","ETAxRNE",5,"sp",7.689
+"240",3,"hyper","ETAxRNE",6,"sp",13.551
+"241",3,"hyper","ETAxRNE",1,"lp",18.731
+"242",3,"hyper","ETAxRNE",2,"lp",13.667
+"243",3,"hyper","ETAxRNE",3,"lp",15.724
+"244",3,"hyper","ETAxRNE",4,"lp",13.966
+"245",3,"hyper","ETAxRNE",5,"lp",21.085
+"246",3,"hyper","ETAxRNE",6,"lp",11.624
+"247",3,"hyper","ETAxRNE",1,"lm",7.03
+"248",3,"hyper","ETAxRNE",2,"lm",5.566
+"249",3,"hyper","ETAxRNE",3,"lm",4.466
+"250",3,"hyper","ETAxRNE",4,"lm",9.905
+"251",3,"hyper","ETAxRNE",5,"lm",5.668
+"252",3,"hyper","ETAxRNE",6,"lm",9.738
+"253",3,"hyper","TLExRNE",1,"sp",16.032
+"254",3,"hyper","TLExRNE",2,"sp",14.46
+"255",3,"hyper","TLExRNE",3,"sp",16.138
+"256",3,"hyper","TLExRNE",4,"sp",17.07
+"257",3,"hyper","TLExRNE",5,"sp",18.541
+"258",3,"hyper","TLExRNE",6,"sp",16.466
+"259",3,"hyper","TLExRNE",1,"lp",14.055
+"260",3,"hyper","TLExRNE",2,"lp",13.935
+"261",3,"hyper","TLExRNE",3,"lp",13.571
+"262",3,"hyper","TLExRNE",4,"lp",15.918
+"263",3,"hyper","TLExRNE",5,"lp",15.442
+"264",3,"hyper","TLExRNE",6,"lp",16.747
+"265",3,"hyper","TLExRNE",1,"lm",9.373
+"266",3,"hyper","TLExRNE",2,"lm",9.421
+"267",3,"hyper","TLExRNE",3,"lm",9.644
+"268",3,"hyper","TLExRNE",4,"lm",9.122
+"269",3,"hyper","TLExRNE",5,"lm",10.078
+"270",3,"hyper","TLExRNE",6,"lm",10.301
+"271",3,"hyper","ETAxTLExRNE",1,"sp",6.779
+"272",3,"hyper","ETAxTLExRNE",2,"sp",0
+"273",3,"hyper","ETAxTLExRNE",3,"sp",3.531
+"274",3,"hyper","ETAxTLExRNE",4,"sp",7.012
+"275",3,"hyper","ETAxTLExRNE",5,"sp",1.87
+"276",3,"hyper","ETAxTLExRNE",6,"sp",9.678
+"277",3,"hyper","ETAxTLExRNE",1,"lp",10.834
+"278",3,"hyper","ETAxTLExRNE",2,"lp",4.202
+"279",3,"hyper","ETAxTLExRNE",3,"lp",4.36
+"280",3,"hyper","ETAxTLExRNE",4,"lp",5.92
+"281",3,"hyper","ETAxTLExRNE",5,"lp",5.474
+"282",3,"hyper","ETAxTLExRNE",6,"lp",12.913
+"283",3,"hyper","ETAxTLExRNE",1,"lm",7.572
+"284",3,"hyper","ETAxTLExRNE",2,"lm",0.887
+"285",3,"hyper","ETAxTLExRNE",3,"lm",3.44
+"286",3,"hyper","ETAxTLExRNE",4,"lm",5.121
+"287",3,"hyper","ETAxTLExRNE",5,"lm",1.765
+"288",3,"hyper","ETAxTLExRNE",6,"lm",6.909
+"289",5,"hyper","no herbivore",1,"sp",25.958
+"290",5,"hyper","no herbivore",2,"sp",27.499
+"291",5,"hyper","no herbivore",3,"sp",28.347
+"292",5,"hyper","no herbivore",4,"sp",25.973
+"293",5,"hyper","no herbivore",5,"sp",26.146
+"294",5,"hyper","no herbivore",6,"sp",26.828
+"295",5,"hyper","no herbivore",1,"lp",26.066
+"296",5,"hyper","no herbivore",2,"lp",27.59
+"297",5,"hyper","no herbivore",3,"lp",29.513
+"298",5,"hyper","no herbivore",4,"lp",26.443
+"299",5,"hyper","no herbivore",5,"lp",27.663
+"300",5,"hyper","no herbivore",6,"lp",27.636
+"301",5,"hyper","no herbivore",1,"lm",11.775
+"302",5,"hyper","no herbivore",2,"lm",11.832
+"303",5,"hyper","no herbivore",3,"lm",12.033
+"304",5,"hyper","no herbivore",4,"lm",11.521
+"305",5,"hyper","no herbivore",5,"lm",10.933
+"306",5,"hyper","no herbivore",6,"lm",12.191
+"307",5,"hyper","ETA",1,"sp",8.646
+"308",5,"hyper","ETA",2,"sp",5.999
+"309",5,"hyper","ETA",3,"sp",18.091
+"310",5,"hyper","ETA",4,"sp",4.853
+"311",5,"hyper","ETA",5,"sp",27.087
+"312",5,"hyper","ETA",6,"sp",18.658
+"313",5,"hyper","ETA",1,"lp",11.549
+"314",5,"hyper","ETA",2,"lp",32.082
+"315",5,"hyper","ETA",3,"lp",25.026
+"316",5,"hyper","ETA",4,"lp",6.083
+"317",5,"hyper","ETA",5,"lp",22.482
+"318",5,"hyper","ETA",6,"lp",21.98
+"319",5,"hyper","ETA",1,"lm",7.521
+"320",5,"hyper","ETA",2,"lm",4.918
+"321",5,"hyper","ETA",3,"lm",12.014
+"322",5,"hyper","ETA",4,"lm",1.619
+"323",5,"hyper","ETA",5,"lm",12.369
+"324",5,"hyper","ETA",6,"lm",9.734
+"325",5,"hyper","TLE",1,"sp",24.679
+"326",5,"hyper","TLE",2,"sp",26.084
+"327",5,"hyper","TLE",3,"sp",26.799
+"328",5,"hyper","TLE",4,"sp",24.819
+"329",5,"hyper","TLE",5,"sp",24.769
+"330",5,"hyper","TLE",6,"sp",26.11
+"331",5,"hyper","TLE",1,"lp",18.028
+"332",5,"hyper","TLE",2,"lp",14.489
+"333",5,"hyper","TLE",3,"lp",17.27
+"334",5,"hyper","TLE",4,"lp",17.205
+"335",5,"hyper","TLE",5,"lp",16.456
+"336",5,"hyper","TLE",6,"lp",18.592
+"337",5,"hyper","TLE",1,"lm",11.28
+"338",5,"hyper","TLE",2,"lm",10.724
+"339",5,"hyper","TLE",3,"lm",10.686
+"340",5,"hyper","TLE",4,"lm",10.183
+"341",5,"hyper","TLE",5,"lm",10.236
+"342",5,"hyper","TLE",6,"lm",11.022
+"343",5,"hyper","RNE",1,"sp",25.563
+"344",5,"hyper","RNE",2,"sp",25.948
+"345",5,"hyper","RNE",3,"sp",23.279
+"346",5,"hyper","RNE",4,"sp",22.938
+"347",5,"hyper","RNE",5,"sp",26.268
+"348",5,"hyper","RNE",6,"sp",25
+"349",5,"hyper","RNE",1,"lp",23.882
+"350",5,"hyper","RNE",2,"lp",21.844
+"351",5,"hyper","RNE",3,"lp",26.089
+"352",5,"hyper","RNE",4,"lp",25.369
+"353",5,"hyper","RNE",5,"lp",24.816
+"354",5,"hyper","RNE",6,"lp",25.991
+"355",5,"hyper","RNE",1,"lm",11.805
+"356",5,"hyper","RNE",2,"lm",11.214
+"357",5,"hyper","RNE",3,"lm",12.455
+"358",5,"hyper","RNE",4,"lm",10.43
+"359",5,"hyper","RNE",5,"lm",12.223
+"360",5,"hyper","RNE",6,"lm",11.957
+"361",5,"hyper","ETAxTLE",1,"sp",0
+"362",5,"hyper","ETAxTLE",2,"sp",0.264
+"363",5,"hyper","ETAxTLE",3,"sp",7.422
+"364",5,"hyper","ETAxTLE",4,"sp",0.738
+"365",5,"hyper","ETAxTLE",5,"sp",0
+"366",5,"hyper","ETAxTLE",6,"sp",23.677
+"367",5,"hyper","ETAxTLE",1,"lp",8.364
+"368",5,"hyper","ETAxTLE",2,"lp",5.451
+"369",5,"hyper","ETAxTLE",3,"lp",7.24
+"370",5,"hyper","ETAxTLE",4,"lp",1.66
+"371",5,"hyper","ETAxTLE",5,"lp",11.549
+"372",5,"hyper","ETAxTLE",6,"lp",12.592
+"373",5,"hyper","ETAxTLE",1,"lm",2.223
+"374",5,"hyper","ETAxTLE",2,"lm",3.494
+"375",5,"hyper","ETAxTLE",3,"lm",7.192
+"376",5,"hyper","ETAxTLE",4,"lm",0.178
+"377",5,"hyper","ETAxTLE",5,"lm",0.333
+"378",5,"hyper","ETAxTLE",6,"lm",5.829
+"379",5,"hyper","ETAxRNE",1,"sp",21.269
+"380",5,"hyper","ETAxRNE",2,"sp",9.792
+"381",5,"hyper","ETAxRNE",3,"sp",16.812
+"382",5,"hyper","ETAxRNE",4,"sp",14.012
+"383",5,"hyper","ETAxRNE",5,"sp",12.062
+"384",5,"hyper","ETAxRNE",6,"sp",21.886
+"385",5,"hyper","ETAxRNE",1,"lp",28.01
+"386",5,"hyper","ETAxRNE",2,"lp",14.269
+"387",5,"hyper","ETAxRNE",3,"lp",28.739
+"388",5,"hyper","ETAxRNE",4,"lp",21.559
+"389",5,"hyper","ETAxRNE",5,"lp",34.586
+"390",5,"hyper","ETAxRNE",6,"lp",19.117
+"391",5,"hyper","ETAxRNE",1,"lm",8.404
+"392",5,"hyper","ETAxRNE",2,"lm",4.676
+"393",5,"hyper","ETAxRNE",3,"lm",6.78
+"394",5,"hyper","ETAxRNE",4,"lm",12.252
+"395",5,"hyper","ETAxRNE",5,"lm",6.986
+"396",5,"hyper","ETAxRNE",6,"lm",12.084
+"397",5,"hyper","TLExRNE",1,"sp",23.816
+"398",5,"hyper","TLExRNE",2,"sp",21.671
+"399",5,"hyper","TLExRNE",3,"sp",25.436
+"400",5,"hyper","TLExRNE",4,"sp",25.322
+"401",5,"hyper","TLExRNE",5,"sp",26.817
+"402",5,"hyper","TLExRNE",6,"sp",24.577
+"403",5,"hyper","TLExRNE",1,"lp",18.285
+"404",5,"hyper","TLExRNE",2,"lp",16.517
+"405",5,"hyper","TLExRNE",3,"lp",19.65
+"406",5,"hyper","TLExRNE",4,"lp",20.516
+"407",5,"hyper","TLExRNE",5,"lp",19.517
+"408",5,"hyper","TLExRNE",6,"lp",21.397
+"409",5,"hyper","TLExRNE",1,"lm",11.196
+"410",5,"hyper","TLExRNE",2,"lm",11.077
+"411",5,"hyper","TLExRNE",3,"lm",12.651
+"412",5,"hyper","TLExRNE",4,"lm",10.71
+"413",5,"hyper","TLExRNE",5,"lm",11.521
+"414",5,"hyper","TLExRNE",6,"lm",12.539
+"415",5,"hyper","ETAxTLExRNE",1,"sp",11.121
+"416",5,"hyper","ETAxTLExRNE",2,"sp",0.51
+"417",5,"hyper","ETAxTLExRNE",3,"sp",7.204
+"418",5,"hyper","ETAxTLExRNE",4,"sp",5.337
+"419",5,"hyper","ETAxTLExRNE",5,"sp",1.007
+"420",5,"hyper","ETAxTLExRNE",6,"sp",16.003
+"421",5,"hyper","ETAxTLExRNE",1,"lp",16.067
+"422",5,"hyper","ETAxTLExRNE",2,"lp",5.132
+"423",5,"hyper","ETAxTLExRNE",3,"lp",7.006
+"424",5,"hyper","ETAxTLExRNE",4,"lp",3.688
+"425",5,"hyper","ETAxTLExRNE",5,"lp",6.902
+"426",5,"hyper","ETAxTLExRNE",6,"lp",17.923
+"427",5,"hyper","ETAxTLExRNE",1,"lm",10.234
+"428",5,"hyper","ETAxTLExRNE",2,"lm",1.31
+"429",5,"hyper","ETAxTLExRNE",3,"lm",4.629
+"430",5,"hyper","ETAxTLExRNE",4,"lm",1.744
+"431",5,"hyper","ETAxTLExRNE",5,"lm",1.595
+"432",5,"hyper","ETAxTLExRNE",6,"lm",8.798
+"433",0,"meso","no herbivore",1,"sp",6.82
+"434",0,"meso","no herbivore",2,"sp",6.695
+"435",0,"meso","no herbivore",3,"sp",6.27
+"436",0,"meso","no herbivore",4,"sp",7.267
+"437",0,"meso","no herbivore",5,"sp",6.452
+"438",0,"meso","no herbivore",6,"sp",6.787
+"439",0,"meso","no herbivore",1,"lp",6.636
+"440",0,"meso","no herbivore",2,"lp",6.62
+"441",0,"meso","no herbivore",3,"lp",6.777
+"442",0,"meso","no herbivore",4,"lp",6.861
+"443",0,"meso","no herbivore",5,"lp",6.391
+"444",0,"meso","no herbivore",6,"lp",6.891
+"445",0,"meso","no herbivore",1,"lm",6.457
+"446",0,"meso","no herbivore",2,"lm",5.778
+"447",0,"meso","no herbivore",3,"lm",6.494
+"448",0,"meso","no herbivore",4,"lm",6.482
+"449",0,"meso","no herbivore",5,"lm",6.21
+"450",0,"meso","no herbivore",6,"lm",6.159
+"451",0,"meso","ETA",1,"sp",7.054
+"452",0,"meso","ETA",2,"sp",7.116
+"453",0,"meso","ETA",3,"sp",6.886
+"454",0,"meso","ETA",4,"sp",7.001
+"455",0,"meso","ETA",5,"sp",6.302
+"456",0,"meso","ETA",6,"sp",7.046
+"457",0,"meso","ETA",1,"lp",6.134
+"458",0,"meso","ETA",2,"lp",6.879
+"459",0,"meso","ETA",3,"lp",7.191
+"460",0,"meso","ETA",4,"lp",6.174
+"461",0,"meso","ETA",5,"lp",6.625
+"462",0,"meso","ETA",6,"lp",6.931
+"463",0,"meso","ETA",1,"lm",5.766
+"464",0,"meso","ETA",2,"lm",5.706
+"465",0,"meso","ETA",3,"lm",6.324
+"466",0,"meso","ETA",4,"lm",5.864
+"467",0,"meso","ETA",5,"lm",5.475
+"468",0,"meso","ETA",6,"lm",5.516
+"469",0,"meso","TLE",1,"sp",7.031
+"470",0,"meso","TLE",2,"sp",7.658
+"471",0,"meso","TLE",3,"sp",6.523
+"472",0,"meso","TLE",4,"sp",6.202
+"473",0,"meso","TLE",5,"sp",6.513
+"474",0,"meso","TLE",6,"sp",6.979
+"475",0,"meso","TLE",1,"lp",6.417
+"476",0,"meso","TLE",2,"lp",6.646
+"477",0,"meso","TLE",3,"lp",6.256
+"478",0,"meso","TLE",4,"lp",5.917
+"479",0,"meso","TLE",5,"lp",6.28
+"480",0,"meso","TLE",6,"lp",6.917
+"481",0,"meso","TLE",1,"lm",5.83
+"482",0,"meso","TLE",2,"lm",6.065
+"483",0,"meso","TLE",3,"lm",5.814
+"484",0,"meso","TLE",4,"lm",6.156
+"485",0,"meso","TLE",5,"lm",6.102
+"486",0,"meso","TLE",6,"lm",6.653
+"487",0,"meso","RNE",1,"sp",6.932
+"488",0,"meso","RNE",2,"sp",6.771
+"489",0,"meso","RNE",3,"sp",6.733
+"490",0,"meso","RNE",4,"sp",6.989
+"491",0,"meso","RNE",5,"sp",6.293
+"492",0,"meso","RNE",6,"sp",6.346
+"493",0,"meso","RNE",1,"lp",6.672
+"494",0,"meso","RNE",2,"lp",6.106
+"495",0,"meso","RNE",3,"lp",6.621
+"496",0,"meso","RNE",4,"lp",6.842
+"497",0,"meso","RNE",5,"lp",6.444
+"498",0,"meso","RNE",6,"lp",6.678
+"499",0,"meso","RNE",1,"lm",5.765
+"500",0,"meso","RNE",2,"lm",6.468
+"501",0,"meso","RNE",3,"lm",5.741
+"502",0,"meso","RNE",4,"lm",5.703
+"503",0,"meso","RNE",5,"lm",6.425
+"504",0,"meso","RNE",6,"lm",5.759
+"505",0,"meso","ETAxTLE",1,"sp",7.051
+"506",0,"meso","ETAxTLE",2,"sp",7.036
+"507",0,"meso","ETAxTLE",3,"sp",6.908
+"508",0,"meso","ETAxTLE",4,"sp",6.95
+"509",0,"meso","ETAxTLE",5,"sp",6.992
+"510",0,"meso","ETAxTLE",6,"sp",7.005
+"511",0,"meso","ETAxTLE",1,"lp",6.217
+"512",0,"meso","ETAxTLE",2,"lp",7.302
+"513",0,"meso","ETAxTLE",3,"lp",6.7
+"514",0,"meso","ETAxTLE",4,"lp",6.501
+"515",0,"meso","ETAxTLE",5,"lp",6.866
+"516",0,"meso","ETAxTLE",6,"lp",6.797
+"517",0,"meso","ETAxTLE",1,"lm",6.011
+"518",0,"meso","ETAxTLE",2,"lm",6.66
+"519",0,"meso","ETAxTLE",3,"lm",6.379
+"520",0,"meso","ETAxTLE",4,"lm",6.465
+"521",0,"meso","ETAxTLE",5,"lm",6.43
+"522",0,"meso","ETAxTLE",6,"lm",6.695
+"523",0,"meso","ETAxRNE",1,"sp",6.487
+"524",0,"meso","ETAxRNE",2,"sp",7.364
+"525",0,"meso","ETAxRNE",3,"sp",6.775
+"526",0,"meso","ETAxRNE",4,"sp",6.683
+"527",0,"meso","ETAxRNE",5,"sp",6.989
+"528",0,"meso","ETAxRNE",6,"sp",6.403
+"529",0,"meso","ETAxRNE",1,"lp",7.038
+"530",0,"meso","ETAxRNE",2,"lp",6.405
+"531",0,"meso","ETAxRNE",3,"lp",7.082
+"532",0,"meso","ETAxRNE",4,"lp",6.989
+"533",0,"meso","ETAxRNE",5,"lp",6.817
+"534",0,"meso","ETAxRNE",6,"lp",6.696
+"535",0,"meso","ETAxRNE",1,"lm",7.147
+"536",0,"meso","ETAxRNE",2,"lm",6.491
+"537",0,"meso","ETAxRNE",3,"lm",6.371
+"538",0,"meso","ETAxRNE",4,"lm",6.101
+"539",0,"meso","ETAxRNE",5,"lm",6.067
+"540",0,"meso","ETAxRNE",6,"lm",5.916
+"541",0,"meso","TLExRNE",1,"sp",6.623
+"542",0,"meso","TLExRNE",2,"sp",6.635
+"543",0,"meso","TLExRNE",3,"sp",6.805
+"544",0,"meso","TLExRNE",4,"sp",7.204
+"545",0,"meso","TLExRNE",5,"sp",6.507
+"546",0,"meso","TLExRNE",6,"sp",6.869
+"547",0,"meso","TLExRNE",1,"lp",6.795
+"548",0,"meso","TLExRNE",2,"lp",6.54
+"549",0,"meso","TLExRNE",3,"lp",6.999
+"550",0,"meso","TLExRNE",4,"lp",6.676
+"551",0,"meso","TLExRNE",5,"lp",6.842
+"552",0,"meso","TLExRNE",6,"lp",6.313
+"553",0,"meso","TLExRNE",1,"lm",6.406
+"554",0,"meso","TLExRNE",2,"lm",6.052
+"555",0,"meso","TLExRNE",3,"lm",6.376
+"556",0,"meso","TLExRNE",4,"lm",6.087
+"557",0,"meso","TLExRNE",5,"lm",5.882
+"558",0,"meso","TLExRNE",6,"lm",5.851
+"559",0,"meso","ETAxTLExRNE",1,"sp",6.304
+"560",0,"meso","ETAxTLExRNE",2,"sp",7.179
+"561",0,"meso","ETAxTLExRNE",3,"sp",6.286
+"562",0,"meso","ETAxTLExRNE",4,"sp",6.928
+"563",0,"meso","ETAxTLExRNE",5,"sp",6.934
+"564",0,"meso","ETAxTLExRNE",6,"sp",6.688
+"565",0,"meso","ETAxTLExRNE",1,"lp",7.013
+"566",0,"meso","ETAxTLExRNE",2,"lp",6.581
+"567",0,"meso","ETAxTLExRNE",3,"lp",6.448
+"568",0,"meso","ETAxTLExRNE",4,"lp",6.32
+"569",0,"meso","ETAxTLExRNE",5,"lp",6.535
+"570",0,"meso","ETAxTLExRNE",6,"lp",6.391
+"571",0,"meso","ETAxTLExRNE",1,"lm",6.877
+"572",0,"meso","ETAxTLExRNE",2,"lm",6.086
+"573",0,"meso","ETAxTLExRNE",3,"lm",6.788
+"574",0,"meso","ETAxTLExRNE",4,"lm",5.927
+"575",0,"meso","ETAxTLExRNE",5,"lm",6.315
+"576",0,"meso","ETAxTLExRNE",6,"lm",6.392
+"577",3,"meso","no herbivore",1,"sp",15.575
+"578",3,"meso","no herbivore",2,"sp",16.555
+"579",3,"meso","no herbivore",3,"sp",14.791
+"580",3,"meso","no herbivore",4,"sp",17.438
+"581",3,"meso","no herbivore",5,"sp",16.583
+"582",3,"meso","no herbivore",6,"sp",16.397
+"583",3,"meso","no herbivore",1,"lp",15.316
+"584",3,"meso","no herbivore",2,"lp",16.803
+"585",3,"meso","no herbivore",3,"lp",17.045
+"586",3,"meso","no herbivore",4,"lp",15.677
+"587",3,"meso","no herbivore",5,"lp",17.312
+"588",3,"meso","no herbivore",6,"lp",18.218
+"589",3,"meso","no herbivore",1,"lm",10.48
+"590",3,"meso","no herbivore",2,"lm",10.499
+"591",3,"meso","no herbivore",3,"lm",11.903
+"592",3,"meso","no herbivore",4,"lm",10.039
+"593",3,"meso","no herbivore",5,"lm",11.011
+"594",3,"meso","no herbivore",6,"lm",11.586
+"595",3,"meso","ETA",1,"sp",0
+"596",3,"meso","ETA",2,"sp",0.289
+"597",3,"meso","ETA",3,"sp",1.074
+"598",3,"meso","ETA",4,"sp",0.651
+"599",3,"meso","ETA",5,"sp",0
+"600",3,"meso","ETA",6,"sp",0
+"601",3,"meso","ETA",1,"lp",2.415
+"602",3,"meso","ETA",2,"lp",2.075
+"603",3,"meso","ETA",3,"lp",5.315
+"604",3,"meso","ETA",4,"lp",1.179
+"605",3,"meso","ETA",5,"lp",5.061
+"606",3,"meso","ETA",6,"lp",0.137
+"607",3,"meso","ETA",1,"lm",0.302
+"608",3,"meso","ETA",2,"lm",0.88
+"609",3,"meso","ETA",3,"lm",2.608
+"610",3,"meso","ETA",4,"lm",3.03
+"611",3,"meso","ETA",5,"lm",0.423
+"612",3,"meso","ETA",6,"lm",0
+"613",3,"meso","TLE",1,"sp",16.506
+"614",3,"meso","TLE",2,"sp",17.788
+"615",3,"meso","TLE",3,"sp",15.007
+"616",3,"meso","TLE",4,"sp",14.659
+"617",3,"meso","TLE",5,"sp",15.221
+"618",3,"meso","TLE",6,"sp",16.095
+"619",3,"meso","TLE",1,"lp",13.182
+"620",3,"meso","TLE",2,"lp",12.499
+"621",3,"meso","TLE",3,"lp",13.133
+"622",3,"meso","TLE",4,"lp",14.044
+"623",3,"meso","TLE",5,"lp",13.024
+"624",3,"meso","TLE",6,"lp",13.564
+"625",3,"meso","TLE",1,"lm",9.839
+"626",3,"meso","TLE",2,"lm",9.676
+"627",3,"meso","TLE",3,"lm",9.498
+"628",3,"meso","TLE",4,"lm",10.612
+"629",3,"meso","TLE",5,"lm",9.73
+"630",3,"meso","TLE",6,"lm",10.03
+"631",3,"meso","RNE",1,"sp",13.735
+"632",3,"meso","RNE",2,"sp",14.755
+"633",3,"meso","RNE",3,"sp",14.783
+"634",3,"meso","RNE",4,"sp",14.686
+"635",3,"meso","RNE",5,"sp",14.19
+"636",3,"meso","RNE",6,"sp",14.229
+"637",3,"meso","RNE",1,"lp",15.908
+"638",3,"meso","RNE",2,"lp",15.26
+"639",3,"meso","RNE",3,"lp",16.531
+"640",3,"meso","RNE",4,"lp",16.593
+"641",3,"meso","RNE",5,"lp",16.163
+"642",3,"meso","RNE",6,"lp",16.33
+"643",3,"meso","RNE",1,"lm",10.045
+"644",3,"meso","RNE",2,"lm",12.286
+"645",3,"meso","RNE",3,"lm",10.381
+"646",3,"meso","RNE",4,"lm",10.444
+"647",3,"meso","RNE",5,"lm",12.13
+"648",3,"meso","RNE",6,"lm",11.29
+"649",3,"meso","ETAxTLE",1,"sp",0
+"650",3,"meso","ETAxTLE",2,"sp",0.378
+"651",3,"meso","ETAxTLE",3,"sp",0
+"652",3,"meso","ETAxTLE",4,"sp",0
+"653",3,"meso","ETAxTLE",5,"sp",9.134
+"654",3,"meso","ETAxTLE",6,"sp",0.805
+"655",3,"meso","ETAxTLE",1,"lp",1.145
+"656",3,"meso","ETAxTLE",2,"lp",2.176
+"657",3,"meso","ETAxTLE",3,"lp",2.576
+"658",3,"meso","ETAxTLE",4,"lp",0
+"659",3,"meso","ETAxTLE",5,"lp",11.491
+"660",3,"meso","ETAxTLE",6,"lp",3.246
+"661",3,"meso","ETAxTLE",1,"lm",0.103
+"662",3,"meso","ETAxTLE",2,"lm",3.83
+"663",3,"meso","ETAxTLE",3,"lm",2.952
+"664",3,"meso","ETAxTLE",4,"lm",0
+"665",3,"meso","ETAxTLE",5,"lm",7.797
+"666",3,"meso","ETAxTLE",6,"lm",0.47
+"667",3,"meso","ETAxRNE",1,"sp",1.074
+"668",3,"meso","ETAxRNE",2,"sp",0
+"669",3,"meso","ETAxRNE",3,"sp",7.132
+"670",3,"meso","ETAxRNE",4,"sp",9.792
+"671",3,"meso","ETAxRNE",5,"sp",10.321
+"672",3,"meso","ETAxRNE",6,"sp",0
+"673",3,"meso","ETAxRNE",1,"lp",8.755
+"674",3,"meso","ETAxRNE",2,"lp",5.537
+"675",3,"meso","ETAxRNE",3,"lp",16.692
+"676",3,"meso","ETAxRNE",4,"lp",16.358
+"677",3,"meso","ETAxRNE",5,"lp",14.502
+"678",3,"meso","ETAxRNE",6,"lp",4.484
+"679",3,"meso","ETAxRNE",1,"lm",5.793
+"680",3,"meso","ETAxRNE",2,"lm",5.842
+"681",3,"meso","ETAxRNE",3,"lm",10.88
+"682",3,"meso","ETAxRNE",4,"lm",10.504
+"683",3,"meso","ETAxRNE",5,"lm",8.793
+"684",3,"meso","ETAxRNE",6,"lm",1.873
+"685",3,"meso","TLExRNE",1,"sp",12.928
+"686",3,"meso","TLExRNE",2,"sp",12.936
+"687",3,"meso","TLExRNE",3,"sp",14.147
+"688",3,"meso","TLExRNE",4,"sp",14.734
+"689",3,"meso","TLExRNE",5,"sp",12.9
+"690",3,"meso","TLExRNE",6,"sp",14.833
+"691",3,"meso","TLExRNE",1,"lp",11.5
+"692",3,"meso","TLExRNE",2,"lp",12.707
+"693",3,"meso","TLExRNE",3,"lp",11.946
+"694",3,"meso","TLExRNE",4,"lp",13.02
+"695",3,"meso","TLExRNE",5,"lp",13.174
+"696",3,"meso","TLExRNE",6,"lp",12.526
+"697",3,"meso","TLExRNE",1,"lm",8.562
+"698",3,"meso","TLExRNE",2,"lm",9.853
+"699",3,"meso","TLExRNE",3,"lm",10.337
+"700",3,"meso","TLExRNE",4,"lm",8.119
+"701",3,"meso","TLExRNE",5,"lm",9.206
+"702",3,"meso","TLExRNE",6,"lm",9.244
+"703",3,"meso","ETAxTLExRNE",1,"sp",7.492
+"704",3,"meso","ETAxTLExRNE",2,"sp",7.671
+"705",3,"meso","ETAxTLExRNE",3,"sp",1.333
+"706",3,"meso","ETAxTLExRNE",4,"sp",6.937
+"707",3,"meso","ETAxTLExRNE",5,"sp",10.695
+"708",3,"meso","ETAxTLExRNE",6,"sp",3.34
+"709",3,"meso","ETAxTLExRNE",1,"lp",9.177
+"710",3,"meso","ETAxTLExRNE",2,"lp",7.891
+"711",3,"meso","ETAxTLExRNE",3,"lp",5.989
+"712",3,"meso","ETAxTLExRNE",4,"lp",10.112
+"713",3,"meso","ETAxTLExRNE",5,"lp",7.354
+"714",3,"meso","ETAxTLExRNE",6,"lp",2.272
+"715",3,"meso","ETAxTLExRNE",1,"lm",5.854
+"716",3,"meso","ETAxTLExRNE",2,"lm",7.455
+"717",3,"meso","ETAxTLExRNE",3,"lm",3.922
+"718",3,"meso","ETAxTLExRNE",4,"lm",8.115
+"719",3,"meso","ETAxTLExRNE",5,"lm",9.094
+"720",3,"meso","ETAxTLExRNE",6,"lm",1.521
+"721",5,"meso","no herbivore",1,"sp",19.008
+"722",5,"meso","no herbivore",2,"sp",19.554
+"723",5,"meso","no herbivore",3,"sp",17.678
+"724",5,"meso","no herbivore",4,"sp",21.153
+"725",5,"meso","no herbivore",5,"sp",19.155
+"726",5,"meso","no herbivore",6,"sp",18.585
+"727",5,"meso","no herbivore",1,"lp",18.339
+"728",5,"meso","no herbivore",2,"lp",20.333
+"729",5,"meso","no herbivore",3,"lp",20.478
+"730",5,"meso","no herbivore",4,"lp",18.589
+"731",5,"meso","no herbivore",5,"lp",19.995
+"732",5,"meso","no herbivore",6,"lp",21.568
+"733",5,"meso","no herbivore",1,"lm",11.988
+"734",5,"meso","no herbivore",2,"lm",11.45
+"735",5,"meso","no herbivore",3,"lm",13.761
+"736",5,"meso","no herbivore",4,"lm",10.927
+"737",5,"meso","no herbivore",5,"lm",13.765
+"738",5,"meso","no herbivore",6,"lm",14.404
+"739",5,"meso","ETA",1,"sp",0
+"740",5,"meso","ETA",2,"sp",0.212
+"741",5,"meso","ETA",3,"sp",1.736
+"742",5,"meso","ETA",4,"sp",0
+"743",5,"meso","ETA",5,"sp",0
+"744",5,"meso","ETA",6,"sp",0.799
+"745",5,"meso","ETA",1,"lp",4.672
+"746",5,"meso","ETA",2,"lp",3.628
+"747",5,"meso","ETA",3,"lp",9.586
+"748",5,"meso","ETA",4,"lp",2.355
+"749",5,"meso","ETA",5,"lp",9.986
+"750",5,"meso","ETA",6,"lp",0.576
+"751",5,"meso","ETA",1,"lm",0.329
+"752",5,"meso","ETA",2,"lm",1.42
+"753",5,"meso","ETA",3,"lm",4.722
+"754",5,"meso","ETA",4,"lm",5.345
+"755",5,"meso","ETA",5,"lm",0.884
+"756",5,"meso","ETA",6,"lm",0
+"757",5,"meso","TLE",1,"sp",18.732
+"758",5,"meso","TLE",2,"sp",21.343
+"759",5,"meso","TLE",3,"sp",17.717
+"760",5,"meso","TLE",4,"sp",16.443
+"761",5,"meso","TLE",5,"sp",17.298
+"762",5,"meso","TLE",6,"sp",19.179
+"763",5,"meso","TLE",1,"lp",14.834
+"764",5,"meso","TLE",2,"lp",11.772
+"765",5,"meso","TLE",3,"lp",12.016
+"766",5,"meso","TLE",4,"lp",13.949
+"767",5,"meso","TLE",5,"lp",12.01
+"768",5,"meso","TLE",6,"lp",13.494
+"769",5,"meso","TLE",1,"lm",12.112
+"770",5,"meso","TLE",2,"lm",12.238
+"771",5,"meso","TLE",3,"lm",11.436
+"772",5,"meso","TLE",4,"lm",11.731
+"773",5,"meso","TLE",5,"lm",11.558
+"774",5,"meso","TLE",6,"lm",12.572
+"775",5,"meso","RNE",1,"sp",15.63
+"776",5,"meso","RNE",2,"sp",16.847
+"777",5,"meso","RNE",3,"sp",17.865
+"778",5,"meso","RNE",4,"sp",16.453
+"779",5,"meso","RNE",5,"sp",15.748
+"780",5,"meso","RNE",6,"sp",16.338
+"781",5,"meso","RNE",1,"lp",19.128
+"782",5,"meso","RNE",2,"lp",16.716
+"783",5,"meso","RNE",3,"lp",19.132
+"784",5,"meso","RNE",4,"lp",18.03
+"785",5,"meso","RNE",5,"lp",17.297
+"786",5,"meso","RNE",6,"lp",18.192
+"787",5,"meso","RNE",1,"lm",11.736
+"788",5,"meso","RNE",2,"lm",13.995
+"789",5,"meso","RNE",3,"lm",12.496
+"790",5,"meso","RNE",4,"lm",10.831
+"791",5,"meso","RNE",5,"lm",12.068
+"792",5,"meso","RNE",6,"lm",12.171
+"793",5,"meso","ETAxTLE",1,"sp",0
+"794",5,"meso","ETAxTLE",2,"sp",0
+"795",5,"meso","ETAxTLE",3,"sp",0
+"796",5,"meso","ETAxTLE",4,"sp",0
+"797",5,"meso","ETAxTLE",5,"sp",12.071
+"798",5,"meso","ETAxTLE",6,"sp",1.27
+"799",5,"meso","ETAxTLE",1,"lp",1.014
+"800",5,"meso","ETAxTLE",2,"lp",1.514
+"801",5,"meso","ETAxTLE",3,"lp",2.972
+"802",5,"meso","ETAxTLE",4,"lp",0
+"803",5,"meso","ETAxTLE",5,"lp",14.298
+"804",5,"meso","ETAxTLE",6,"lp",3.257
+"805",5,"meso","ETAxTLE",1,"lm",0.405
+"806",5,"meso","ETAxTLE",2,"lm",2.098
+"807",5,"meso","ETAxTLE",3,"lm",3.571
+"808",5,"meso","ETAxTLE",4,"lm",0
+"809",5,"meso","ETAxTLE",5,"lm",10.452
+"810",5,"meso","ETAxTLE",6,"lm",0.407
+"811",5,"meso","ETAxRNE",1,"sp",0
+"812",5,"meso","ETAxRNE",2,"sp",0
+"813",5,"meso","ETAxRNE",3,"sp",8.49
+"814",5,"meso","ETAxRNE",4,"sp",11.325
+"815",5,"meso","ETAxRNE",5,"sp",13.428
+"816",5,"meso","ETAxRNE",6,"sp",0
+"817",5,"meso","ETAxRNE",1,"lp",3.902
+"818",5,"meso","ETAxRNE",2,"lp",0.254
+"819",5,"meso","ETAxRNE",3,"lp",20.229
+"820",5,"meso","ETAxRNE",4,"lp",19.995
+"821",5,"meso","ETAxRNE",5,"lp",19.25
+"822",5,"meso","ETAxRNE",6,"lp",0
+"823",5,"meso","ETAxRNE",1,"lm",3.707
+"824",5,"meso","ETAxRNE",2,"lm",0.236
+"825",5,"meso","ETAxRNE",3,"lm",14.131
+"826",5,"meso","ETAxRNE",4,"lm",11.914
+"827",5,"meso","ETAxRNE",5,"lm",11.125
+"828",5,"meso","ETAxRNE",6,"lm",0.083
+"829",5,"meso","TLExRNE",1,"sp",15.418
+"830",5,"meso","TLExRNE",2,"sp",14.561
+"831",5,"meso","TLExRNE",3,"sp",15.712
+"832",5,"meso","TLExRNE",4,"sp",17.128
+"833",5,"meso","TLExRNE",5,"sp",14.749
+"834",5,"meso","TLExRNE",6,"sp",17.076
+"835",5,"meso","TLExRNE",1,"lp",11.16
+"836",5,"meso","TLExRNE",2,"lp",13.547
+"837",5,"meso","TLExRNE",3,"lp",11.51
+"838",5,"meso","TLExRNE",4,"lp",13.097
+"839",5,"meso","TLExRNE",5,"lp",13.209
+"840",5,"meso","TLExRNE",6,"lp",12.943
+"841",5,"meso","TLExRNE",1,"lm",10.398
+"842",5,"meso","TLExRNE",2,"lm",11.453
+"843",5,"meso","TLExRNE",3,"lm",12.071
+"844",5,"meso","TLExRNE",4,"lm",9.385
+"845",5,"meso","TLExRNE",5,"lm",10.297
+"846",5,"meso","TLExRNE",6,"lm",11.029
+"847",5,"meso","ETAxTLExRNE",1,"sp",9.284
+"848",5,"meso","ETAxTLExRNE",2,"sp",8.989
+"849",5,"meso","ETAxTLExRNE",3,"sp",0
+"850",5,"meso","ETAxTLExRNE",4,"sp",7.899
+"851",5,"meso","ETAxTLExRNE",5,"sp",12.772
+"852",5,"meso","ETAxTLExRNE",6,"sp",0
+"853",5,"meso","ETAxTLExRNE",1,"lp",10.031
+"854",5,"meso","ETAxTLExRNE",2,"lp",8.214
+"855",5,"meso","ETAxTLExRNE",3,"lp",0
+"856",5,"meso","ETAxTLExRNE",4,"lp",9.414
+"857",5,"meso","ETAxTLExRNE",5,"lp",7.174
+"858",5,"meso","ETAxTLExRNE",6,"lp",0.389
+"859",5,"meso","ETAxTLExRNE",1,"lm",8.111
+"860",5,"meso","ETAxTLExRNE",2,"lm",10.22
+"861",5,"meso","ETAxTLExRNE",3,"lm",0
+"862",5,"meso","ETAxTLExRNE",4,"lm",11.16
+"863",5,"meso","ETAxTLExRNE",5,"lm",11.919
+"864",5,"meso","ETAxTLExRNE",6,"lm",0.343

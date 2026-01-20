@@ -1,0 +1,433 @@
+"","day","condition","treatment","replication","species","area"
+"1",0,"hyper","no herbivore",1,"sp",6.134
+"2",0,"hyper","no herbivore",2,"sp",6.852
+"3",0,"hyper","no herbivore",3,"sp",6.745
+"4",0,"hyper","no herbivore",4,"sp",6.055
+"5",0,"hyper","no herbivore",5,"sp",6.186
+"6",0,"hyper","no herbivore",6,"sp",6.398
+"7",0,"hyper","no herbivore",1,"lp",5.608
+"8",0,"hyper","no herbivore",2,"lp",4.966
+"9",0,"hyper","no herbivore",3,"lp",5.731
+"10",0,"hyper","no herbivore",4,"lp",5.471
+"11",0,"hyper","no herbivore",5,"lp",5.979
+"12",0,"hyper","no herbivore",6,"lp",5.519
+"13",0,"hyper","no herbivore",1,"lm",6.115
+"14",0,"hyper","no herbivore",2,"lm",5.995
+"15",0,"hyper","no herbivore",3,"lm",6.988
+"16",0,"hyper","no herbivore",4,"lm",6.434
+"17",0,"hyper","no herbivore",5,"lm",6.477
+"18",0,"hyper","no herbivore",6,"lm",5.941
+"19",0,"hyper","ETA",1,"sp",6.359
+"20",0,"hyper","ETA",2,"sp",6.646
+"21",0,"hyper","ETA",3,"sp",6.032
+"22",0,"hyper","ETA",4,"sp",6.789
+"23",0,"hyper","ETA",5,"sp",7.28
+"24",0,"hyper","ETA",6,"sp",6.213
+"25",0,"hyper","ETA",1,"lp",5.495
+"26",0,"hyper","ETA",2,"lp",5.239
+"27",0,"hyper","ETA",3,"lp",5.836
+"28",0,"hyper","ETA",4,"lp",5.074
+"29",0,"hyper","ETA",5,"lp",5.131
+"30",0,"hyper","ETA",6,"lp",4.914
+"31",0,"hyper","ETA",1,"lm",6.14
+"32",0,"hyper","ETA",2,"lm",6.786
+"33",0,"hyper","ETA",3,"lm",6.409
+"34",0,"hyper","ETA",4,"lm",6.449
+"35",0,"hyper","ETA",5,"lm",6.16
+"36",0,"hyper","ETA",6,"lm",7.006
+"37",0,"hyper","TLE",1,"sp",7.74
+"38",0,"hyper","TLE",2,"sp",6.305
+"39",0,"hyper","TLE",3,"sp",7.061
+"40",0,"hyper","TLE",4,"sp",6.833
+"41",0,"hyper","TLE",5,"sp",6.558
+"42",0,"hyper","TLE",6,"sp",6.296
+"43",0,"hyper","TLE",1,"lp",5.725
+"44",0,"hyper","TLE",2,"lp",5.305
+"45",0,"hyper","TLE",3,"lp",5.449
+"46",0,"hyper","TLE",4,"lp",5.514
+"47",0,"hyper","TLE",5,"lp",5.211
+"48",0,"hyper","TLE",6,"lp",5.032
+"49",0,"hyper","TLE",1,"lm",5.851
+"50",0,"hyper","TLE",2,"lm",6.406
+"51",0,"hyper","TLE",3,"lm",6.12
+"52",0,"hyper","TLE",4,"lm",6.597
+"53",0,"hyper","TLE",5,"lm",6.254
+"54",0,"hyper","TLE",6,"lm",6.003
+"55",0,"hyper","RNE",1,"sp",7.029
+"56",0,"hyper","RNE",2,"sp",6.598
+"57",0,"hyper","RNE",3,"sp",7.318
+"58",0,"hyper","RNE",4,"sp",6.355
+"59",0,"hyper","RNE",5,"sp",6.447
+"60",0,"hyper","RNE",6,"sp",7.013
+"61",0,"hyper","RNE",1,"lp",5.549
+"62",0,"hyper","RNE",2,"lp",5.653
+"63",0,"hyper","RNE",3,"lp",5.635
+"64",0,"hyper","RNE",4,"lp",6.211
+"65",0,"hyper","RNE",5,"lp",5.745
+"66",0,"hyper","RNE",6,"lp",5.575
+"67",0,"hyper","RNE",1,"lm",5.814
+"68",0,"hyper","RNE",2,"lm",6.398
+"69",0,"hyper","RNE",3,"lm",6.269
+"70",0,"hyper","RNE",4,"lm",6.116
+"71",0,"hyper","RNE",5,"lm",6.733
+"72",0,"hyper","RNE",6,"lm",6.426
+"73",0,"meso","no herbivore",1,"sp",6.87
+"74",0,"meso","no herbivore",2,"sp",6.514
+"75",0,"meso","no herbivore",3,"sp",5.808
+"76",0,"meso","no herbivore",4,"sp",6.917
+"77",0,"meso","no herbivore",5,"sp",6.571
+"78",0,"meso","no herbivore",6,"sp",6.342
+"79",0,"meso","no herbivore",1,"lp",6.231
+"80",0,"meso","no herbivore",2,"lp",5.461
+"81",0,"meso","no herbivore",3,"lp",5.421
+"82",0,"meso","no herbivore",4,"lp",5.729
+"83",0,"meso","no herbivore",5,"lp",5.25
+"84",0,"meso","no herbivore",6,"lp",5.786
+"85",0,"meso","no herbivore",1,"lm",6.352
+"86",0,"meso","no herbivore",2,"lm",5.921
+"87",0,"meso","no herbivore",3,"lm",6.165
+"88",0,"meso","no herbivore",4,"lm",6.484
+"89",0,"meso","no herbivore",5,"lm",6.536
+"90",0,"meso","no herbivore",6,"lm",5.655
+"91",0,"meso","ETA",1,"sp",5.712
+"92",0,"meso","ETA",2,"sp",6.305
+"93",0,"meso","ETA",3,"sp",6.101
+"94",0,"meso","ETA",4,"sp",6.07
+"95",0,"meso","ETA",5,"sp",6.561
+"96",0,"meso","ETA",6,"sp",6.044
+"97",0,"meso","ETA",1,"lp",5.52
+"98",0,"meso","ETA",2,"lp",5.141
+"99",0,"meso","ETA",3,"lp",5.231
+"100",0,"meso","ETA",4,"lp",5.07
+"101",0,"meso","ETA",5,"lp",5.745
+"102",0,"meso","ETA",6,"lp",5.784
+"103",0,"meso","ETA",1,"lm",5.936
+"104",0,"meso","ETA",2,"lm",5.53
+"105",0,"meso","ETA",3,"lm",5.971
+"106",0,"meso","ETA",4,"lm",5.731
+"107",0,"meso","ETA",5,"lm",6.332
+"108",0,"meso","ETA",6,"lm",6.166
+"109",0,"meso","TLE",1,"sp",5.634
+"110",0,"meso","TLE",2,"sp",6.179
+"111",0,"meso","TLE",3,"sp",5.945
+"112",0,"meso","TLE",4,"sp",6.288
+"113",0,"meso","TLE",5,"sp",6.539
+"114",0,"meso","TLE",6,"sp",6.62
+"115",0,"meso","TLE",1,"lp",5.612
+"116",0,"meso","TLE",2,"lp",5.075
+"117",0,"meso","TLE",3,"lp",5.951
+"118",0,"meso","TLE",4,"lp",5.56
+"119",0,"meso","TLE",5,"lp",6.267
+"120",0,"meso","TLE",6,"lp",5.735
+"121",0,"meso","TLE",1,"lm",5.91
+"122",0,"meso","TLE",2,"lm",5.963
+"123",0,"meso","TLE",3,"lm",6.289
+"124",0,"meso","TLE",4,"lm",6.051
+"125",0,"meso","TLE",5,"lm",6.521
+"126",0,"meso","TLE",6,"lm",6.313
+"127",0,"meso","RNE",1,"sp",5.632
+"128",0,"meso","RNE",2,"sp",6.175
+"129",0,"meso","RNE",3,"sp",5.942
+"130",0,"meso","RNE",4,"sp",6.289
+"131",0,"meso","RNE",5,"sp",6.542
+"132",0,"meso","RNE",6,"sp",6.616
+"133",0,"meso","RNE",1,"lp",5.491
+"134",0,"meso","RNE",2,"lp",5.892
+"135",0,"meso","RNE",3,"lp",5.796
+"136",0,"meso","RNE",4,"lp",5.614
+"137",0,"meso","RNE",5,"lp",5.849
+"138",0,"meso","RNE",6,"lp",5.584
+"139",0,"meso","RNE",1,"lm",6.348
+"140",0,"meso","RNE",2,"lm",6.306
+"141",0,"meso","RNE",3,"lm",6.279
+"142",0,"meso","RNE",4,"lm",6.46
+"143",0,"meso","RNE",5,"lm",6.194
+"144",0,"meso","RNE",6,"lm",6.337
+"145",3,"hyper","no herbivore",1,"sp",14.696
+"146",3,"hyper","no herbivore",2,"sp",17.168
+"147",3,"hyper","no herbivore",3,"sp",15.803
+"148",3,"hyper","no herbivore",4,"sp",14.549
+"149",3,"hyper","no herbivore",5,"sp",14.564
+"150",3,"hyper","no herbivore",6,"sp",15.088
+"151",3,"hyper","no herbivore",1,"lp",15.53
+"152",3,"hyper","no herbivore",2,"lp",13.543
+"153",3,"hyper","no herbivore",3,"lp",15.624
+"154",3,"hyper","no herbivore",4,"lp",14.485
+"155",3,"hyper","no herbivore",5,"lp",15.388
+"156",3,"hyper","no herbivore",6,"lp",14.393
+"157",3,"hyper","no herbivore",1,"lm",10.545
+"158",3,"hyper","no herbivore",2,"lm",10.413
+"159",3,"hyper","no herbivore",3,"lm",12.007
+"160",3,"hyper","no herbivore",4,"lm",10.363
+"161",3,"hyper","no herbivore",5,"lm",9.82
+"162",3,"hyper","no herbivore",6,"lm",9.498
+"163",3,"hyper","ETA",1,"sp",12.191
+"164",3,"hyper","ETA",2,"sp",1.012
+"165",3,"hyper","ETA",3,"sp",0.126
+"166",3,"hyper","ETA",4,"sp",9.243
+"167",3,"hyper","ETA",5,"sp",8.529
+"168",3,"hyper","ETA",6,"sp",4.473
+"169",3,"hyper","ETA",1,"lp",5.983
+"170",3,"hyper","ETA",2,"lp",6.904
+"171",3,"hyper","ETA",3,"lp",12.105
+"172",3,"hyper","ETA",4,"lp",6.35
+"173",3,"hyper","ETA",5,"lp",7.96
+"174",3,"hyper","ETA",6,"lp",11.226
+"175",3,"hyper","ETA",1,"lm",4.123
+"176",3,"hyper","ETA",2,"lm",6.057
+"177",3,"hyper","ETA",3,"lm",6.154
+"178",3,"hyper","ETA",4,"lm",6.949
+"179",3,"hyper","ETA",5,"lm",7.028
+"180",3,"hyper","ETA",6,"lm",9.017
+"181",3,"hyper","TLE",1,"sp",16.054
+"182",3,"hyper","TLE",2,"sp",15.601
+"183",3,"hyper","TLE",3,"sp",15.322
+"184",3,"hyper","TLE",4,"sp",14.781
+"185",3,"hyper","TLE",5,"sp",14.6
+"186",3,"hyper","TLE",6,"sp",12.63
+"187",3,"hyper","TLE",1,"lp",12.795
+"188",3,"hyper","TLE",2,"lp",11.712
+"189",3,"hyper","TLE",3,"lp",13.267
+"190",3,"hyper","TLE",4,"lp",12.59
+"191",3,"hyper","TLE",5,"lp",12.374
+"192",3,"hyper","TLE",6,"lp",11.565
+"193",3,"hyper","TLE",1,"lm",9.115
+"194",3,"hyper","TLE",2,"lm",10.672
+"195",3,"hyper","TLE",3,"lm",9.214
+"196",3,"hyper","TLE",4,"lm",9.738
+"197",3,"hyper","TLE",5,"lm",9.701
+"198",3,"hyper","TLE",6,"lm",8.67
+"199",3,"hyper","RNE",1,"sp",13.764
+"200",3,"hyper","RNE",2,"sp",13.172
+"201",3,"hyper","RNE",3,"sp",14.535
+"202",3,"hyper","RNE",4,"sp",13.354
+"203",3,"hyper","RNE",5,"sp",14.113
+"204",3,"hyper","RNE",6,"sp",14.322
+"205",3,"hyper","RNE",1,"lp",11.849
+"206",3,"hyper","RNE",2,"lp",12.562
+"207",3,"hyper","RNE",3,"lp",13.875
+"208",3,"hyper","RNE",4,"lp",15.215
+"209",3,"hyper","RNE",5,"lp",14.594
+"210",3,"hyper","RNE",6,"lp",12.749
+"211",3,"hyper","RNE",1,"lm",9.186
+"212",3,"hyper","RNE",2,"lm",9.898
+"213",3,"hyper","RNE",3,"lm",10.079
+"214",3,"hyper","RNE",4,"lm",9.984
+"215",3,"hyper","RNE",5,"lm",11.304
+"216",3,"hyper","RNE",6,"lm",8.975
+"217",3,"meso","no herbivore",1,"sp",12.742
+"218",3,"meso","no herbivore",2,"sp",12.468
+"219",3,"meso","no herbivore",3,"sp",10.684
+"220",3,"meso","no herbivore",4,"sp",13.378
+"221",3,"meso","no herbivore",5,"sp",12.568
+"222",3,"meso","no herbivore",6,"sp",12.589
+"223",3,"meso","no herbivore",1,"lp",13.05
+"224",3,"meso","no herbivore",2,"lp",11.908
+"225",3,"meso","no herbivore",3,"lp",11.489
+"226",3,"meso","no herbivore",4,"lp",13.387
+"227",3,"meso","no herbivore",5,"lp",11.919
+"228",3,"meso","no herbivore",6,"lp",13.189
+"229",3,"meso","no herbivore",1,"lm",9.565
+"230",3,"meso","no herbivore",2,"lm",9.176
+"231",3,"meso","no herbivore",3,"lm",9.032
+"232",3,"meso","no herbivore",4,"lm",10.425
+"233",3,"meso","no herbivore",5,"lm",10.311
+"234",3,"meso","no herbivore",6,"lm",9.956
+"235",3,"meso","ETA",1,"sp",2.778
+"236",3,"meso","ETA",2,"sp",0
+"237",3,"meso","ETA",3,"sp",9.858
+"238",3,"meso","ETA",4,"sp",7.289
+"239",3,"meso","ETA",5,"sp",1.008
+"240",3,"meso","ETA",6,"sp",6.225
+"241",3,"meso","ETA",1,"lp",9.679
+"242",3,"meso","ETA",2,"lp",5.712
+"243",3,"meso","ETA",3,"lp",3.464
+"244",3,"meso","ETA",4,"lp",5.917
+"245",3,"meso","ETA",5,"lp",8.603
+"246",3,"meso","ETA",6,"lp",8.517
+"247",3,"meso","ETA",1,"lm",8.341
+"248",3,"meso","ETA",2,"lm",4.508
+"249",3,"meso","ETA",3,"lm",3.938
+"250",3,"meso","ETA",4,"lm",2.331
+"251",3,"meso","ETA",5,"lm",5.246
+"252",3,"meso","ETA",6,"lm",5.367
+"253",3,"meso","TLE",1,"sp",9.668
+"254",3,"meso","TLE",2,"sp",10.227
+"255",3,"meso","TLE",3,"sp",10.568
+"256",3,"meso","TLE",4,"sp",9.586
+"257",3,"meso","TLE",5,"sp",11.678
+"258",3,"meso","TLE",6,"sp",10.954
+"259",3,"meso","TLE",1,"lp",10.451
+"260",3,"meso","TLE",2,"lp",10.775
+"261",3,"meso","TLE",3,"lp",11.358
+"262",3,"meso","TLE",4,"lp",10.115
+"263",3,"meso","TLE",5,"lp",10.819
+"264",3,"meso","TLE",6,"lp",11.163
+"265",3,"meso","TLE",1,"lm",8.562
+"266",3,"meso","TLE",2,"lm",9.486
+"267",3,"meso","TLE",3,"lm",8.927
+"268",3,"meso","TLE",4,"lm",9.091
+"269",3,"meso","TLE",5,"lm",8.408
+"270",3,"meso","TLE",6,"lm",8.911
+"271",3,"meso","RNE",1,"sp",9.673
+"272",3,"meso","RNE",2,"sp",10.328
+"273",3,"meso","RNE",3,"sp",10.038
+"274",3,"meso","RNE",4,"sp",10.591
+"275",3,"meso","RNE",5,"sp",11.571
+"276",3,"meso","RNE",6,"sp",10.797
+"277",3,"meso","RNE",1,"lp",11.113
+"278",3,"meso","RNE",2,"lp",11.874
+"279",3,"meso","RNE",3,"lp",10.793
+"280",3,"meso","RNE",4,"lp",10.11
+"281",3,"meso","RNE",5,"lp",12.203
+"282",3,"meso","RNE",6,"lp",10.051
+"283",3,"meso","RNE",1,"lm",10.759
+"284",3,"meso","RNE",2,"lm",10.033
+"285",3,"meso","RNE",3,"lm",9.085
+"286",3,"meso","RNE",4,"lm",9.928
+"287",3,"meso","RNE",5,"lm",10.179
+"288",3,"meso","RNE",6,"lm",9.213
+"289",5,"hyper","no herbivore",1,"sp",22.027
+"290",5,"hyper","no herbivore",2,"sp",24.526
+"291",5,"hyper","no herbivore",3,"sp",22.746
+"292",5,"hyper","no herbivore",4,"sp",21.079
+"293",5,"hyper","no herbivore",5,"sp",21.218
+"294",5,"hyper","no herbivore",6,"sp",22.209
+"295",5,"hyper","no herbivore",1,"lp",22.36
+"296",5,"hyper","no herbivore",2,"lp",18.432
+"297",5,"hyper","no herbivore",3,"lp",21.777
+"298",5,"hyper","no herbivore",4,"lp",20.197
+"299",5,"hyper","no herbivore",5,"lp",21.314
+"300",5,"hyper","no herbivore",6,"lp",20.288
+"301",5,"hyper","no herbivore",1,"lm",11.598
+"302",5,"hyper","no herbivore",2,"lm",11.478
+"303",5,"hyper","no herbivore",3,"lm",12.977
+"304",5,"hyper","no herbivore",4,"lm",11.875
+"305",5,"hyper","no herbivore",5,"lm",11.753
+"306",5,"hyper","no herbivore",6,"lm",11.12
+"307",5,"hyper","ETA",1,"sp",22.988
+"308",5,"hyper","ETA",2,"sp",0
+"309",5,"hyper","ETA",3,"sp",0.124
+"310",5,"hyper","ETA",4,"sp",0
+"311",5,"hyper","ETA",5,"sp",16.727
+"312",5,"hyper","ETA",6,"sp",7.339
+"313",5,"hyper","ETA",1,"lp",11.186
+"314",5,"hyper","ETA",2,"lp",4.896
+"315",5,"hyper","ETA",3,"lp",7.392
+"316",5,"hyper","ETA",4,"lp",4.006
+"317",5,"hyper","ETA",5,"lp",15.886
+"318",5,"hyper","ETA",6,"lp",18.239
+"319",5,"hyper","ETA",1,"lm",6.029
+"320",5,"hyper","ETA",2,"lm",2.783
+"321",5,"hyper","ETA",3,"lm",5.218
+"322",5,"hyper","ETA",4,"lm",2.894
+"323",5,"hyper","ETA",5,"lm",9.984
+"324",5,"hyper","ETA",6,"lm",11.125
+"325",5,"hyper","TLE",1,"sp",22.519
+"326",5,"hyper","TLE",2,"sp",21.999
+"327",5,"hyper","TLE",3,"sp",22.973
+"328",5,"hyper","TLE",4,"sp",21.416
+"329",5,"hyper","TLE",5,"sp",20.257
+"330",5,"hyper","TLE",6,"sp",19.704
+"331",5,"hyper","TLE",1,"lp",15.598
+"332",5,"hyper","TLE",2,"lp",14.254
+"333",5,"hyper","TLE",3,"lp",18.552
+"334",5,"hyper","TLE",4,"lp",14.815
+"335",5,"hyper","TLE",5,"lp",14.821
+"336",5,"hyper","TLE",6,"lp",15.564
+"337",5,"hyper","TLE",1,"lm",11.009
+"338",5,"hyper","TLE",2,"lm",11.955
+"339",5,"hyper","TLE",3,"lm",12.097
+"340",5,"hyper","TLE",4,"lm",12.926
+"341",5,"hyper","TLE",5,"lm",12.031
+"342",5,"hyper","TLE",6,"lm",11.894
+"343",5,"hyper","RNE",1,"sp",19.191
+"344",5,"hyper","RNE",2,"sp",17.717
+"345",5,"hyper","RNE",3,"sp",17.239
+"346",5,"hyper","RNE",4,"sp",16.407
+"347",5,"hyper","RNE",5,"sp",18.351
+"348",5,"hyper","RNE",6,"sp",19.916
+"349",5,"hyper","RNE",1,"lp",16.619
+"350",5,"hyper","RNE",2,"lp",18.456
+"351",5,"hyper","RNE",3,"lp",18.607
+"352",5,"hyper","RNE",4,"lp",20.829
+"353",5,"hyper","RNE",5,"lp",20.677
+"354",5,"hyper","RNE",6,"lp",19.169
+"355",5,"hyper","RNE",1,"lm",10.535
+"356",5,"hyper","RNE",2,"lm",12.397
+"357",5,"hyper","RNE",3,"lm",12.399
+"358",5,"hyper","RNE",4,"lm",11.58
+"359",5,"hyper","RNE",5,"lm",14.948
+"360",5,"hyper","RNE",6,"lm",12.902
+"361",5,"meso","no herbivore",1,"sp",15.506
+"362",5,"meso","no herbivore",2,"sp",15.333
+"363",5,"meso","no herbivore",3,"sp",13.002
+"364",5,"meso","no herbivore",4,"sp",15.841
+"365",5,"meso","no herbivore",5,"sp",14.584
+"366",5,"meso","no herbivore",6,"sp",14.954
+"367",5,"meso","no herbivore",1,"lp",16.89
+"368",5,"meso","no herbivore",2,"lp",16.049
+"369",5,"meso","no herbivore",3,"lp",15.632
+"370",5,"meso","no herbivore",4,"lp",16.387
+"371",5,"meso","no herbivore",5,"lp",15.531
+"372",5,"meso","no herbivore",6,"lp",17.122
+"373",5,"meso","no herbivore",1,"lm",13.089
+"374",5,"meso","no herbivore",2,"lm",11.517
+"375",5,"meso","no herbivore",3,"lm",11.355
+"376",5,"meso","no herbivore",4,"lm",12.66
+"377",5,"meso","no herbivore",5,"lm",12.657
+"378",5,"meso","no herbivore",6,"lm",12.097
+"379",5,"meso","ETA",1,"sp",4.118
+"380",5,"meso","ETA",2,"sp",0
+"381",5,"meso","ETA",3,"sp",0
+"382",5,"meso","ETA",4,"sp",0
+"383",5,"meso","ETA",5,"sp",0
+"384",5,"meso","ETA",6,"sp",0.135
+"385",5,"meso","ETA",1,"lp",14.298
+"386",5,"meso","ETA",2,"lp",2.725
+"387",5,"meso","ETA",3,"lp",0.509
+"388",5,"meso","ETA",4,"lp",3.334
+"389",5,"meso","ETA",5,"lp",0.436
+"390",5,"meso","ETA",6,"lp",2.278
+"391",5,"meso","ETA",1,"lm",11.185
+"392",5,"meso","ETA",2,"lm",1.262
+"393",5,"meso","ETA",3,"lm",0
+"394",5,"meso","ETA",4,"lm",0
+"395",5,"meso","ETA",5,"lm",0.04
+"396",5,"meso","ETA",6,"lm",1.631
+"397",5,"meso","TLE",1,"sp",11.603
+"398",5,"meso","TLE",2,"sp",11.836
+"399",5,"meso","TLE",3,"sp",12.761
+"400",5,"meso","TLE",4,"sp",11.255
+"401",5,"meso","TLE",5,"sp",14.098
+"402",5,"meso","TLE",6,"sp",12.937
+"403",5,"meso","TLE",1,"lp",12.93
+"404",5,"meso","TLE",2,"lp",12.256
+"405",5,"meso","TLE",3,"lp",13.455
+"406",5,"meso","TLE",4,"lp",12.393
+"407",5,"meso","TLE",5,"lp",11.845
+"408",5,"meso","TLE",6,"lp",13.114
+"409",5,"meso","TLE",1,"lm",8.881
+"410",5,"meso","TLE",2,"lm",10.373
+"411",5,"meso","TLE",3,"lm",10.862
+"412",5,"meso","TLE",4,"lm",10.775
+"413",5,"meso","TLE",5,"lm",9.96
+"414",5,"meso","TLE",6,"lm",10.973
+"415",5,"meso","RNE",1,"sp",11.323
+"416",5,"meso","RNE",2,"sp",11.981
+"417",5,"meso","RNE",3,"sp",12.416
+"418",5,"meso","RNE",4,"sp",12.295
+"419",5,"meso","RNE",5,"sp",13.583
+"420",5,"meso","RNE",6,"sp",13.286
+"421",5,"meso","RNE",1,"lp",14.034
+"422",5,"meso","RNE",2,"lp",15.314
+"423",5,"meso","RNE",3,"lp",14.146
+"424",5,"meso","RNE",4,"lp",12.997
+"425",5,"meso","RNE",5,"lp",15.918
+"426",5,"meso","RNE",6,"lp",12.926
+"427",5,"meso","RNE",1,"lm",13.957
+"428",5,"meso","RNE",2,"lm",12.928
+"429",5,"meso","RNE",3,"lm",11.863
+"430",5,"meso","RNE",4,"lm",12.178
+"431",5,"meso","RNE",5,"lm",13.181
+"432",5,"meso","RNE",6,"lm",12.399
