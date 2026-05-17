@@ -45,3 +45,8 @@ stanfit_default_all <- sampling(model,
                                  iter=2000)
 
 save("stanfit_default_all", file="stanfit_default_all.rda")
+
+ss <- rstan::summary(stanfit_default_all)
+
+min(ss$summary[,"n_eff"])
+max(ss$summary[,"Rhat"])
