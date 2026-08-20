@@ -1,9 +1,28 @@
 library(dplyr)
 library(readxl)
+library(here)
+here::i_am("script/script_diversity.R")
 
-data_processed_singular <- read.csv("../data_processed/data_processed_singular_area.csv")
-data_processed_comb <- read.csv("../data_processed/data_processed_comb_area.csv")
-data_processed_arrival <- read.csv("../data_processed/data_processed_arrival_area.csv")
+data_processed_singular <- read.csv(
+  here::here(
+    "data_processed",
+    "data_processed_singular_area.csv"
+  )
+)
+
+data_processed_comb <- read.csv(
+  here::here(
+    "data_processed",
+    "data_processed_comb_area.csv"
+  )
+)
+
+data_processed_arrival <- read.csv(
+  here::here(
+    "data_processed",
+    "data_processed_arrival_area.csv"
+  )
+)
 
 nonzero_min <- min(data_processed_singular$area[data_processed_singular$area!=0])
 # min(data_processed_comb$area[data_processed_comb$area!=0])

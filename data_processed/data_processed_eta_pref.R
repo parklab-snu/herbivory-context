@@ -1,8 +1,15 @@
 library(tidyr)
 library(dplyr)
 library(readxl)
+library(here)
+here::i_am("data_processed/data_processed_eta_pref.R")
 
-data_raw <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx", sheet=9)
+raw_file <- here::here(
+  "data_raw",
+  "Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx"
+)
+
+data_raw <- readxl::read_xlsx(raw_file, sheet = 9)
 
 data_comb <- bind_rows(
   data.frame(
@@ -50,5 +57,10 @@ data_processed_eta_pref <- data_comb %>%
     preference=sum(value)
   )
 
-write.csv(data_processed_eta_pref,
-          file="data_processed_eta_pref.csv")
+write.csv(
+  data_processed_eta_pref,
+  file = here::here(
+    "data_processed",
+    "data_processed_eta_pref.csv"
+  )
+)

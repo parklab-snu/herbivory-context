@@ -1,15 +1,18 @@
 library(dplyr)
 library(readxl)
+library(here)
+here::i_am("data_processed/data_processed_area.R")
 
-data_raw <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx")
-data_raw2 <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx",
-                       sheet=2)
-data_raw3 <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx",
-                       sheet=3)
-data_raw4 <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx",
-                       sheet=4)
-data_raw5 <- read_xlsx("../data_raw/Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx",
-                       sheet=5)
+raw_file <- here::here(
+  "data_raw",
+  "Choi et al_duckweed and herbivore feeding guild_raw_data.xlsx"
+)
+
+data_raw  <- readxl::read_xlsx(raw_file, sheet = 1)
+data_raw2 <- readxl::read_xlsx(raw_file, sheet = 2)
+data_raw3 <- readxl::read_xlsx(raw_file, sheet = 3)
+data_raw4 <- readxl::read_xlsx(raw_file, sheet = 4)
+data_raw5 <- readxl::read_xlsx(raw_file, sheet = 5)
 
 data_singular_area <- data.frame(
   day=rep(c(0, 3, 5), each=nrow(data_raw)),
@@ -68,9 +71,26 @@ data_arrival_area <- bind_rows(
   data_arrival_area_meso
 )
 
-write.csv(data_singular_area,
-          file="data_processed_singular_area.csv")
-write.csv(data_comb_area,
-          file="data_processed_comb_area.csv")
-write.csv(data_arrival_area,
-          file="data_processed_arrival_area.csv")
+write.csv(
+  data_singular_area,
+  file = here::here(
+    "data_processed",
+    "data_processed_singular_area.csv"
+  )
+)
+
+write.csv(
+  data_comb_area,
+  file = here::here(
+    "data_processed",
+    "data_processed_comb_area.csv"
+  )
+)
+
+write.csv(
+  data_arrival_area,
+  file = here::here(
+    "data_processed",
+    "data_processed_arrival_area.csv"
+  )
+)

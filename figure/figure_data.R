@@ -2,7 +2,15 @@ library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(ggtext)
 library(egg)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("figure/figure_data.R")
+
+source(
+  here::here(
+    "script",
+    "script_diversity.R"
+  )
+)
 
 data_processed_all2 <- data_processed_all %>%
   mutate(
@@ -132,5 +140,22 @@ gcomb <- ggarrange(g1, g2, g3, g4, nrow=2, heights=c(3, 1),
           widths=c(8, 4),
           labels=c("A", "B", "C", "D"))
 
-ggsave("figure_data.pdf", gcomb, width=15, height=6)
-ggsave("figure_data.png", gcomb, width=15, height=6)
+ggsave(
+  here::here(
+    "figure",
+    "figure_data.pdf"
+  ),
+  gcomb,
+  width=15,
+  height=6
+)
+
+ggsave(
+  here::here(
+    "figure",
+    "figure_data.png"
+  ),
+  gcomb,
+  width=15,
+  height=6
+)

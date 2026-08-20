@@ -1,6 +1,9 @@
 library(rstan)
 library(dplyr)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("stanfit/stanfit_default_all.R")
+
+source(here::here("script", "script_diversity.R"))
 
 fitdata <- lapply(split(data_processed_all, data_processed_all[,c("replication", "treatment", "condition")]), function(x) {
   
@@ -24,7 +27,7 @@ fitdata <- lapply(split(data_processed_all, data_processed_all[,c("replication",
   ) %>%
   filter(is.finite(r)) 
 
-model <- stan_model("../stanmodel/model_default.stan")
+model <- stan_model(here::here("stanmodel", "model_default.stan"))
 
 standata <- list(
   N=nrow(fitdata),
@@ -44,7 +47,10 @@ stanfit_default_all <- sampling(model,
                                  cores=4,
                                  iter=2000)
 
-save("stanfit_default_all", file="stanfit_default_all.rda")
+save(
+  "stanfit_default_all",
+  file = here::here("stanfit", "stanfit_default_all.rda")
+)
 
 ss <- rstan::summary(stanfit_default_all)
 

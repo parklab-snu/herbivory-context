@@ -3,7 +3,15 @@ library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
 library(lme4)
 library(ggtext)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("figure/figure_regression_arrival_v2.R")
+
+source(
+  here::here(
+    "script",
+    "script_diversity.R"
+  )
+)
 
 data_diversity_all_reg <- bind_rows(
   data_diversity_all %>%
@@ -267,13 +275,35 @@ g3 <- ggplot(data_reg_coef_r %>% filter(species=="sp")) +
 
 gcomb <- ggarrange(g1, g2, g3, g4, nrow=1, labels=c("A", "B", "C", "D"))
 
-ggsave("figure_regression_arrival_v2.pdf", gcomb, width=12, height=4)
-ggsave("figure_regression_arrival_v2.png", gcomb, width=12, height=4)
+ggsave(
+  here::here(
+    "figure",
+    "figure_regression_arrival_v2.pdf"
+  ),
+  gcomb,
+  width=12,
+  height=4
+)
+
+ggsave(
+  here::here(
+    "figure",
+    "figure_regression_arrival_v2.png"
+  ),
+  gcomb,
+  width=12,
+  height=4
+)
 
 data_reg_coef_r_eta <- data_reg_coef_r %>%
   filter(treatment=="ETA")
 
-data_processed_eta_pref <- read.csv("../data_processed/data_processed_eta_pref.csv") %>%
+data_processed_eta_pref <- read.csv(
+  here::here(
+    "data_processed",
+    "data_processed_eta_pref.csv"
+  )
+) %>%
   rename(
     species=key,
     condition=treatment
@@ -371,5 +401,22 @@ g8 <- ggplot(data_reg_coef_r_eta_pref %>% filter(type=="feeding", condition=="me
 gpref <- ggarrange(g5, g6, g7, g8, nrow=2,
           labels=c("A", "B", "C", "D"))
 
-ggsave("figure_regression_arrival_pref.pdf", gpref, width=6*1.1, height=4*1.1)
-ggsave("figure_regression_arrival_pref.png", gpref, width=6*1.1, height=4*1.1)
+ggsave(
+  here::here(
+    "figure",
+    "figure_regression_arrival_pref.pdf"
+  ),
+  gpref,
+  width=6*1.1,
+  height=4*1.1
+)
+
+ggsave(
+  here::here(
+    "figure",
+    "figure_regression_arrival_pref.png"
+  ),
+  gpref,
+  width=6*1.1,
+  height=4*1.1
+)

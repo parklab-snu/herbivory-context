@@ -4,6 +4,8 @@
 
 This repository contains all code and data used for the analysis.
 
+Each R script uses `here::i_am()` to declare its location within the project and `here::here()` for all input and output paths. The scripts can therefore be run from the project root or from any subdirectory within the project without changing their behavior.
+
 * `data_raw`: contains the raw Excel sheet for the duckweed competition, herbivore preference, nutrient, and biomass measurements
 * `data_processed`: contains R scripts for processing the raw data and the resulting analysis-ready CSV files
   * `data_processed_area.R`: processes duckweed surface-area measurements from the single-herbivore, herbivore-combination, and sequential-arrival experiments
@@ -25,7 +27,7 @@ This repository contains all code and data used for the analysis.
 
 ------
 
-* Run `data_processed_area.R` and `data_processed_eta_pref.R` from the `data_processed` directory to generate the processed CSV files.
-* Run `stanfit_default_all.R` from the `stanfit` directory after the processed data have been generated. This script sources `script_diversity.R`, fits the Stan model, and generates the fitted-model .rda file.
-* `figure_data.R` and `figure_regression_arrival_v2.R` can be run after data processing is complete.
-* Stan-based scripts in `figure` and `figure_stanfit` require `stanfit_default_all.rda` and should be run after the model has been fitted.
+* Run `data_processed/data_processed_area.R` and `data_processed/data_processed_eta_pref.R` to generate the processed CSV files.
+* Run `stanfit/stanfit_default_all.R` after the processed data have been generated. This script sources `script/script_diversity.R`, fits the Stan model, and saves the fitted model as `stanfit/stanfit_default_all.rda`.
+* `figure/figure_data.R` and `figure/figure_regression_arrival_v2.R` can be run after data processing is complete.
+* Stan-based scripts in `figure` and `figure_stanfit` require `stanfit/stanfit_default_all.rda` and should be run after the model has been fitted.

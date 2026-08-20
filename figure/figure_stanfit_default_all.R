@@ -2,9 +2,12 @@ library(rstan)
 library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("figure/figure_stanfit_default_all.R")
 
-load("../stanfit/stanfit_default_all.rda")
+source(here::here("script", "script_diversity.R"))
+
+load(here::here("stanfit", "stanfit_default_all.rda"))
 
 fitdata <- lapply(split(data_processed_all, data_processed_all[,c("replication", "treatment", "condition")]), function(x) {
   
@@ -107,5 +110,5 @@ g1 <- ggplot(plotdata_r) +
 gcomb <- ggarrange(g1, g2, nrow=1, widths=c(1, 3),
                    labels=c("A", "B"))
 
-ggsave("figure_stanfit_default_all.pdf", gcomb, width=8, height=6)
-ggsave("figure_stanfit_default_all.png", gcomb, width=8, height=6)
+ggsave(here::here("figure", "figure_stanfit_default_all.pdf"), gcomb, width=8, height=6)
+ggsave(here::here("figure", "figure_stanfit_default_all.png"), gcomb, width=8, height=6)

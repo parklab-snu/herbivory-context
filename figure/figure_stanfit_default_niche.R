@@ -3,9 +3,12 @@ library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
 library(ggdensity)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("figure/figure_stanfit_default_niche.R")
 
-load("../stanfit/stanfit_default_all.rda")
+source(here::here("script", "script_diversity.R"))
+
+load(here::here("stanfit", "stanfit_default_all.rda"))
 
 fitdata <- lapply(split(data_processed_all, data_processed_all[,c("replication", "treatment", "condition")]), function(x) {
   
@@ -119,8 +122,8 @@ g1 <- ggplot(summlist_all) +
     panel.grid = element_blank()
   )
 
-ggsave("figure_stanfit_default_niche.pdf", g1, width=6, height=6)
-ggsave("figure_stanfit_default_niche.png", g1, width=6, height=6)
+ggsave(here::here("figure", "figure_stanfit_default_niche.pdf"), g1, width=6, height=6)
+ggsave(here::here("figure", "figure_stanfit_default_niche.png"), g1, width=6, height=6)
 
 reslist_all2 <- reslist_all %>%
   merge(select(fitdata_group, treatment, condition, group)) %>%
@@ -222,8 +225,8 @@ g4 <- ggplot(reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~p
 
 gcomb <- ggarrange(g2, g3, g4, nrow=3, draw=FALSE)
 
-ggsave("figure_stanfit_default_niche2.pdf", gcomb, width=18, height=12)
-ggsave("figure_stanfit_default_niche2.png", gcomb, width=18, height=12)
+ggsave(here::here("figure", "figure_stanfit_default_niche2.pdf"), gcomb, width=18, height=12)
+ggsave(here::here("figure", "figure_stanfit_default_niche2.png"), gcomb, width=18, height=12)
 
 g5_v1 <- ggplot(reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
          filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))) +
@@ -247,7 +250,7 @@ g5_v1 <- ggplot(reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S
     legend.position = "none"
   )
 
-ggsave("figure_stanfit_default_niche_subset_v1.pdf", g5_v1, width=8, height=4)
+ggsave(here::here("figure", "figure_stanfit_default_niche_subset_v1.pdf"), g5_v1, width=8, height=4)
 
 reslist_all3 <- reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
   filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))
@@ -275,4 +278,4 @@ g5_v2 <- ggplot(reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S
     legend.position = "right"
   )
 
-ggsave("figure_stanfit_default_niche_subset_v2.pdf", g5_v2, width=8, height=4)
+ggsave(here::here("figure", "figure_stanfit_default_niche_subset_v2.pdf"), g5_v2, width=8, height=4)

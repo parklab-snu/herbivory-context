@@ -2,9 +2,12 @@ library(rstan)
 library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
-source("../script/script_diversity.R")
+library(here)
+here::i_am("figure_stanfit/figure_stanfit_default_all_post.R")
 
-load("../stanfit/stanfit_default_all.rda")
+source(here::here("script", "script_diversity.R"))
+
+load(here::here("stanfit", "stanfit_default_all.rda"))
 
 fitdata <- lapply(split(data_processed_all, data_processed_all[,c("replication", "treatment", "condition")]), function(x) {
   
@@ -140,7 +143,27 @@ g_alpha_meso <- ggplot(posterior_alpha %>% filter(condition=="meso")) +
     legend.position = "top"
   )
 
-ggsave("figure_lambda_hyper.png", g_lambda_hyper, width=8, height=6)
-ggsave("figure_lambda_meso.png", g_lambda_meso, width=8, height=6)
-ggsave("figure_alpha_hyper.png", g_alpha_hyper, width=8, height=8)
-ggsave("figure_alpha_meso.png", g_alpha_meso, width=8, height=6)
+ggsave(
+  here::here("figure_stanfit", "figure_lambda_hyper.png"),
+  g_lambda_hyper,
+  width=8,
+  height=6
+)
+ggsave(
+  here::here("figure_stanfit", "figure_lambda_meso.png"),
+  g_lambda_meso,
+  width=8,
+  height=6
+)
+ggsave(
+  here::here("figure_stanfit", "figure_alpha_hyper.png"),
+  g_alpha_hyper,
+  width=8,
+  height=8
+)
+ggsave(
+  here::here("figure_stanfit", "figure_alpha_meso.png"),
+  g_alpha_meso,
+  width=8,
+  height=6
+)
