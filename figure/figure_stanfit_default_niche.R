@@ -228,30 +228,6 @@ gcomb <- ggarrange(g2, g3, g4, nrow=3, draw=FALSE)
 ggsave(here::here("figure", "figure_stanfit_default_niche2.pdf"), gcomb, width=18, height=12)
 ggsave(here::here("figure", "figure_stanfit_default_niche2.png"), gcomb, width=18, height=12)
 
-g5_v1 <- ggplot(reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
-         filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))) +
-  geom_ribbon(data=plotdata1, aes(x, ymin=ymin, ymax=ymax), fill="gray70", alpha=0.5) +
-  geom_ribbon(data=plotdata2, aes(x, ymin=ymin, ymax=ymax), fill="gray90", alpha=0.5) +
-  geom_point(aes(log(1/rho), log(fdiff), col=outcome), size=0.5) +
-  annotate("text", x=0, y=7, label="Competitive\nexclusion", size=2) +
-  annotate("text", x=5, y=1, label="Coexistence", size=2) +
-  annotate("text", x=-6, y=1, label="Priority\neffect", size=2) +
-  geom_abline(intercept=0, slope=1) +
-  geom_abline(intercept=0, slope=-1) +
-  scale_x_continuous("Niche difference") +
-  scale_y_continuous("Fitness difference", expand=c(0, 0), limits=c(0, NA)) +
-  coord_cartesian(xlim=c(-8, 8)) +
-  scale_color_viridis_d(end=0.8) +
-  facet_grid(condition~treatment) +
-  ggtitle("L. perpusilla vs S. polyrhiza") +
-  theme(
-    panel.grid = element_blank(),
-    strip.background = element_blank(),
-    legend.position = "none"
-  )
-
-ggsave(here::here("figure", "figure_stanfit_default_niche_subset_v1.pdf"), g5_v1, width=8, height=4)
-
 reslist_all3 <- reslist_all2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
   filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))
 
