@@ -126,4 +126,3 @@ gcomb <- ggarrange(g1, g2, nrow=1, widths=c(1, 3),
                    labels=c("A", "B"))
 
 ggsave(here::here("figure", "figure_stanfit_default_all_refactor.pdf"), gcomb, width=8, height=6)
-ggsave(here::here("figure", "figure_stanfit_default_all_refactor.png"), gcomb, width=8, height=6)
