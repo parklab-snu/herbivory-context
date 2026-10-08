@@ -7,13 +7,13 @@ here::i_am("figure_stanfit/figure_stanfit_default_all_fit.R")
 
 source(here::here("script", "script_diversity.R"))
 
-load(here::here("stanfit", "stanfit_default_all.rda"))
+load(here::here("stanfit", "stanfit_default_all_refactor.rda"))
 
 fitdata_group <- fitdata %>%
   group_by(group) %>%
   filter(1:n()==1)
 
-ss <- summary(stanfit_default_all)
+ss <- summary(stanfit_default_all_refactor)
 
 plotdata <- data.frame(
   logr=fitdata$r,
@@ -60,6 +60,7 @@ ggsave(
   width=8,
   height=4
 )
+
 ggsave(
   here::here("figure_stanfit", "figure_stanfit_default_all_fit.png"),
   g1,
