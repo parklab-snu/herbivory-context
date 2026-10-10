@@ -5,7 +5,7 @@ library(lme4)
 library(ggtext)
 library(flextable)
 library(here)
-here::i_am("figure/figure_regression_main.R")
+here::i_am("figure_regression/figure_regression_main.R")
 
 source(
   here::here(
@@ -221,7 +221,7 @@ gcomb <- ggarrange(g1, g2, g3, g4, nrow=1, labels=c("A", "B", "C", "D"))
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_main.pdf"
   ),
   gcomb,
@@ -231,13 +231,40 @@ ggsave(
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_main.png"
   ),
   gcomb,
   width=12,
   height=4
 )
+
+plot_diagnostics <- function(model, model_name) {
+  old_par <- par(no.readonly = TRUE)
+  on.exit(par(old_par))
+  
+  par(mfrow = c(2, 2), mar = c(4, 4, 2, 1), oma = c(0, 0, 3, 0))
+  
+  plot(model, which = 1:4, ask = FALSE, sub.caption = "", id.n = 3)
+  
+  mtext(model_name, side = 3, outer = TRUE, line = 1, cex = 1.1)
+}
+
+png(file = here::here("figure_regression", "figure_regression_diag_lm.png"), width = 8,height = 7,units = "in", res = 300)
+plot_diagnostics(lfit_all_r_lm, "L. minor")
+dev.off()
+
+png(file = here::here("figure_regression", "figure_regression_diag_lp.png"), width = 8,height = 7,units = "in", res = 300)
+plot_diagnostics(lfit_all_r_lp, "L. perpusilla")
+dev.off()
+
+png(file = here::here("figure_regression", "figure_regression_diag_sp.png"), width = 8,height = 7,units = "in", res = 300)
+plot_diagnostics(lfit_all_r_sp, "S. polyrhiza")
+dev.off()
+
+png(file = here::here("figure_regression", "figure_regression_diag_div.png"), width = 8,height = 7,units = "in", res = 300)
+plot_diagnostics(lfit_all, "Shannon diversity")
+dev.off()
 
 high_nutrient_reference <- function(model) {
   model_data <- model.frame(model)
@@ -393,7 +420,7 @@ gpref <- ggarrange(g5, g6, g7, g8, nrow=2,
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_main_pref.pdf"
   ),
   gpref,
@@ -403,7 +430,7 @@ ggsave(
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_main_pref.png"
   ),
   gpref,

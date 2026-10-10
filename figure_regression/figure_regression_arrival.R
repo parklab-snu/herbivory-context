@@ -5,7 +5,7 @@ library(lme4)
 library(ggtext)
 library(flextable)
 library(here)
-here::i_am("figure/figure_regression_arrival.R")
+here::i_am("figure_regression/figure_regression_arrival.R")
 
 source(
   here::here(
@@ -13,6 +13,24 @@ source(
     "script_diversity.R"
   )
 )
+
+hc3_results <- function(model) {
+  b <- coef(model)
+  V <- car::hccm(model, type = "hc3")
+  se <- sqrt(diag(V))[names(b)]
+  df <- df.residual(model)
+  critical <- qt(0.975, df)
+  
+  data.frame(
+    est = unname(b),
+    lwr = unname(b - critical * se),
+    upr = unname(b + critical * se),
+    p = unname(
+      2 * pt(abs(b / se), df = df, lower.tail = FALSE)
+    ),
+    row.names = names(b)
+  )
+}
 
 data_diversity_all_reg <- bind_rows(
   data_diversity_all %>%
@@ -42,6 +60,8 @@ data_diversity_all_reg <- bind_rows(
 lfit_all <- lm(diversity~nutrient*(ETA + TLE + RNE)^2,
                data=data_diversity_all_reg)
 
+hc3_div <- hc3_results(lfit_all)
+
 coef_order <- c("ETATRUE", "TLETRUE", "RNETRUE", 
                 "ETATRUE:TLETRUE", "ETATRUE:RNETRUE", "TLETRUE:RNETRUE", 
                 "nutrienthigh-nutrient", "nutrienthigh-nutrient:ETATRUE", 
@@ -57,9 +77,9 @@ data_reg_coef <- bind_rows(
                 "high-nutrient:TLE", "high-nutrient:RNE",
                 "high-nutrient:ETA:TLE", "high-nutrient:ETA:RNE", 
                 "high-nutrient:TLE:RNE"),
-    est=coef(lfit_all)[coef_order],
-    lwr=confint(lfit_all)[coef_order,1],
-    upr=confint(lfit_all)[coef_order,2]
+    est = hc3_div[coef_order, "est"],
+    lwr = hc3_div[coef_order, "lwr"],
+    upr = hc3_div[coef_order, "upr"]
   )
 ) %>%
   mutate(
@@ -146,15 +166,14 @@ lfit_all_r_lp <- lm(
 growth_labels <- levels(data_reg_coef$treatment)
 
 extract_growth <- function(model, species_code) {
-  ci <- confint(model)
-  ss <- summary(model)
+  hc <- hc3_results(model)[coef_order, , drop = FALSE]
   
   data.frame(
     treatment = factor(growth_labels, levels = growth_labels),
-    est = unname(coef(model)[coef_order]),
-    lwr = unname(ci[coef_order, 1]),
-    upr = unname(ci[coef_order, 2]),
-    p=unname(ss$coefficients[coef_order,4]),
+    est = hc$est,
+    lwr = hc$lwr,
+    upr = hc$upr,
+    p = hc$p,
     species = species_code
   )
 }
@@ -232,7 +251,7 @@ gcomb <- ggarrange(g1, g2, g3, g4, nrow=1, labels=c("A", "B", "C", "D"))
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_arrival.pdf"
   ),
   gcomb,
@@ -242,7 +261,7 @@ ggsave(
 
 ggsave(
   here::here(
-    "figure",
+    "figure_regression",
     "figure_regression_arrival.png"
   ),
   gcomb,

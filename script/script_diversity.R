@@ -32,7 +32,6 @@ data_diversity_singular <- data_processed_singular %>%
   group_by(day, condition, treatment, replication) %>%
   filter(sum(area) != 0) %>%
   mutate(
-    area=pmax(nonzero_min, area),
     prop=area/sum(area)
   ) %>%
   summarize(
@@ -43,7 +42,6 @@ data_diversity_comb <- data_processed_comb %>%
   group_by(day, condition, treatment, replication) %>%
   filter(sum(area) != 0) %>%
   mutate(
-    area=pmax(nonzero_min, area),
     prop=area/sum(area)
   ) %>%
   summarize(
@@ -54,7 +52,6 @@ data_diversity_arrival <- data_processed_arrival  %>%
   group_by(day, condition, treatment, replication) %>%
   filter(sum(area) != 0) %>%
   mutate(
-    area=pmax(nonzero_min, area),
     prop=area/sum(area)
   ) %>%
   summarize(
