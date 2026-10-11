@@ -2,7 +2,7 @@
 
 ------
 
-This repository contains all code and data used for the analysis.
+This repository contains code and data used for the analysis.
 
 Each R script uses `here::i_am()` to declare its location within the project and `here::here()` for all input and output paths. The scripts can therefore be run from the project root or from any subdirectory within the project without changing their behavior.
 
@@ -12,27 +12,44 @@ Each R script uses `here::i_am()` to declare its location within the project and
   * `data_processed_eta_pref.R`: summarizes the feeding and nesting preferences of *Elophila turbata* (ETA)
 * `script`: contains shared R code for preparing the processed datasets and calculating Shannon diversity
   * `script_diversity.R`: combines the experimental datasets and calculates diversity for each treatment, nutrient condition, replicate, and observation day
-* `stanmodel`: contains the Stan model for estimating intrinsic growth rates, density-dependent competition coefficients, and pairwise coexistence metrics
+* `stanmodel`: contains the Stan models for estimating intrinsic growth parameters, density-dependent competition coefficients, and pairwise coexistence metrics
   * `model_default.stan`: Stan model used for the population-dynamic analysis
-* `stanfit`: contains the R script for fitting the population-dynamic model
-  * `stanfit_default_all.R`: prepares the model data, fits the Stan model, and saves the fitted model as `stanfit_default_all.rda`
+  * `model_narrow.stan` and `model_wide.stan`: alternative models with halved and doubled prior standard deviations for the intrinsic growth and competition parameters, respectively; the prior for the residual standard deviation is unchanged
+* `stanfit`: contains the R scripts for fitting the population-dynamic models
+  * `stanfit_default_all_refactor.R`: prepares the model data, fits the default Stan model, and saves the fitted model as `stanfit_default_all_refactor.rda`
+  * `stanfit_default_all_narrow.R` and `stanfit_default_all_wide.R`: fit the models with narrower and wider priors and save the fitted models as `stanfit_default_all_narrow.rda` and `stanfit_default_all_wide.rda`
+* `figure_regression`: contains R scripts for the frequentist regression analyses and diagnostic figures
+  * `figure_regression_hc3.R`: fits the main regression models using day-0–5 growth rates and day-5 diversity, with HC3 standard errors; generates Figure 2 and the comparisons between ETA effects and nesting and feeding preferences
+  * `figure_regression_main.R`: fits the same main regression models using conventional standard errors and generates regression diagnostic plots
+  * `figure_regression_arrival.R`: compares delayed ETA introduction with corresponding no-ETA treatments using day-3–5 growth rates and day-5 diversity, with HC3 standard errors
+  * `figure_regression_hc3_infl.R`: repeats the main HC3 analyses after excluding the observation with the largest Cook's distance from each model
 * `figure`: contains R scripts for generating the main and supplementary figures
   * `figure_data.R`: plots the observed duckweed surface-area and Shannon-diversity trajectories
-  * `figure_regression_arrival_v2.R`: estimates and plots herbivore main effects, interaction effects, sequential-arrival effects, and ETA preference comparisons
-  * `figure_stanfit_default_all.R`: plots posterior estimates of intrinsic growth rates and competition coefficients
-  * `figure_stanfit_default_niche.R`: translates posterior model estimates into niche differences, fitness differences, and pairwise competition outcomes
+  * `figure_stanfit_default_all_refactor.R`: plots posterior estimates of intrinsic growth parameters and competition coefficients for Figure 3
+  * `figure_stanfit_default_niche_refactor.R`: translates posterior model estimates into niche differences, fitness differences, and pairwise competition outcomes; assembles all panels of Figure 4 in R
+  * `figure_stanfit_default_all_narrow.R` and `figure_stanfit_default_all_wide.R`: plot posterior parameter estimates under the alternative prior specifications
+  * `figure_stanfit_default_niche_narrow.R` and `figure_stanfit_default_niche_wide.R`: plot niche and fitness differences and pairwise competition outcomes under the alternative prior specifications
 * `figure_stanfit`: contains R scripts for posterior diagnostics and model-fit figures
   * `figure_stanfit_default_all_fit.R`: compares observed and model-predicted growth rates
   * `figure_stanfit_default_all_post.R`: plots posterior distributions by sampling chain
+* `figure_stanfit_narrow` and `figure_stanfit_wide`: contain the corresponding posterior-distribution plotting scripts for the narrower and wider priors
+* `figure_prior`: contains the R script for examining the distributions implied by the priors
+  * `figure_prior.R`: simulates niche and fitness differences from the default priors and saves `figure_prior.png`
 
 ------
 
 * Run `data_processed/data_processed_area.R` and `data_processed/data_processed_eta_pref.R` to generate the processed CSV files.
-* Run `stanfit/stanfit_default_all.R` after the processed data have been generated. This script sources `script/script_diversity.R`, fits the Stan model, and saves the fitted model as `stanfit/stanfit_default_all.rda`.
-* `figure/figure_data.R` and `figure/figure_regression_arrival_v2.R` can be run after data processing is complete.
-* Stan-based scripts in `figure` and `figure_stanfit` require `stanfit/stanfit_default_all.rda` and should be run after the model has been fitted.
+* `figure/figure_data.R` and the scripts in `figure_regression` can be run after data processing is complete; they do not require the Bayesian models to be fitted. The main HC3 figure is saved as `figure_regression/figure_regression_hc3.pdf` and `.png`. Regression diagnostics are generated by `figure_regression/figure_regression_main.R` and saved as `figure_regression/figure_regression_diag_lm.png`, `figure_regression_diag_lp.png`, `figure_regression_diag_sp.png`, and `figure_regression_diag_div.png`.
+* Run `stanfit/stanfit_default_all_refactor.R` after the processed data have been generated. This script sources `script/script_diversity.R`, fits the Stan model, and saves the fitted model as `stanfit/stanfit_default_all_refactor.rda`.
+* After fitting the default model, run `figure/figure_stanfit_default_all_refactor.R` for Figure 3 and `figure/figure_stanfit_default_niche_refactor.R` for Figure 4. Figure 4 is saved as `figure/figure_stanfit_default_niche_combined.pdf`; no manual panel assembly is required. The scripts in `figure_stanfit` use the same default fitted model.
+* For prior sensitivity analyses, run `stanfit/stanfit_default_all_narrow.R` and `stanfit/stanfit_default_all_wide.R`, followed by the corresponding narrow- and wide-prior plotting scripts in `figure`, `figure_stanfit_narrow`, and `figure_stanfit_wide`. All three model-fitting scripts use the fixed random seed `102`.
+* `figure_prior/figure_prior.R` can be run independently of the model-fitting scripts and uses the fixed random seed `101`.
+
+Fitted model files (`.rda`) and generated figures are not tracked in Git and can be generated using the scripts above. Output files are saved to the project locations specified in each script.
 
 ------
+
+The recorded session information is shown below.
 
 ```
 R version 4.3.2 (2023-10-31)

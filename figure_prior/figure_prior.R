@@ -2,6 +2,7 @@ library(rstan)
 library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
+library(ggdensity)
 library(here)
 here::i_am("figure_prior/figure_prior.R")
 
