@@ -61,7 +61,7 @@ g2 <- ggplot(plotdata) +
   geom_text(data=plotdata %>% group_by(text) %>% filter(1:n()==1), aes(0.5, 4.2, label=text), hjust=0, family="Times",
             size=3, parse=TRUE) +
   scale_x_discrete("Treatment") +
-  scale_y_continuous("Compeitition coefficient", limits=c(0, NA)) +
+  scale_y_continuous("Competition coefficient", limits=c(0, NA)) +
   facet_grid(species~xvar) +
   scale_color_manual(values=c("#2999DA", "#FDA601")) +
   theme(
