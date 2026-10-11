@@ -51,7 +51,7 @@ posterior_lambda <- posterior_chain %>%
   )
 
 g_lambda_hyper <- ggplot(posterior_lambda %>% filter(condition=="hyper")) +
-  geom_density(aes(value, col=as.factor(chain)), linewidth=0.4) +
+  geom_density(aes(log(value), col=as.factor(chain)), linewidth=0.4) +
   facet_grid(species~treatment, labeller = label_parsed, scales="free_y") +
   scale_x_continuous("Intrinsic growth rate (1/day)") +
   scale_y_continuous("Posterior density") +
@@ -64,7 +64,7 @@ g_lambda_hyper <- ggplot(posterior_lambda %>% filter(condition=="hyper")) +
   )
 
 g_lambda_meso <- ggplot(posterior_lambda %>% filter(condition=="meso")) +
-  geom_density(aes(value, col=as.factor(chain)), linewidth=0.4) +
+  geom_density(aes(log(value), col=as.factor(chain)), linewidth=0.4) +
   facet_grid(species~treatment, labeller = label_parsed, scales="free_y") +
   scale_x_continuous("Intrinsic growth rate (1/day)") +
   scale_y_continuous("Posterior density") +

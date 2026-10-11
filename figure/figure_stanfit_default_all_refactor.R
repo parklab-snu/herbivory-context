@@ -40,9 +40,9 @@ plotdata_r <- data.frame(
   species=rep(c("italic(L.~minor)", "italic(L.~perpusilla)", "italic(S.~polyrhiza)"), each=16),
   treatment=rep(fitdata_group$treatment, 3),
   condition=rep(fitdata_group$condition, 3),
-  est=ss$summary[grepl("lambda", rownames(ss$summary)),6],
-  lwr=ss$summary[grepl("lambda", rownames(ss$summary)),4],
-  upr=ss$summary[grepl("lambda", rownames(ss$summary)),8]
+  est=log(ss$summary[grepl("lambda", rownames(ss$summary)),6]),
+  lwr=log(ss$summary[grepl("lambda", rownames(ss$summary)),4]),
+  upr=log(ss$summary[grepl("lambda", rownames(ss$summary)),8])
 )%>%
   mutate(
     treatment=factor(treatment,
@@ -77,7 +77,7 @@ g2 <- ggplot(plotdata) +
 g1 <- ggplot(plotdata_r) +
   geom_point(aes(treatment, est, col=condition), position = position_dodge(width=0.7)) +
   geom_errorbar(aes(treatment, ymin=lwr, ymax=upr, col=condition), width=0, position = position_dodge(width=0.7)) +
-  geom_text(data=plotdata %>% group_by(species) %>% filter(1:n()==1), aes(0.5, 18, label=species), hjust=0, family="Times",
+  geom_text(data=plotdata %>% group_by(species) %>% filter(1:n()==1), aes(0.5, 3.4, label=species), hjust=0, family="Times",
             size=3, parse=TRUE) +
   scale_x_discrete("Treatment") +
   scale_y_continuous("Intrinsic growth rate (1/day)") +

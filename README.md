@@ -32,7 +32,6 @@ Each R script uses `here::i_am()` to declare its location within the project and
 * `figure_stanfit`: contains R scripts for posterior diagnostics and model-fit figures
   * `figure_stanfit_default_all_fit.R`: compares observed and model-predicted growth rates
   * `figure_stanfit_default_all_post.R`: plots posterior distributions by sampling chain
-* `figure_stanfit_narrow` and `figure_stanfit_wide`: contain the corresponding posterior-distribution plotting scripts for the narrower and wider priors
 * `figure_prior`: contains the R script for examining the distributions implied by the priors
   * `figure_prior.R`: simulates niche and fitness differences from the default priors
 
