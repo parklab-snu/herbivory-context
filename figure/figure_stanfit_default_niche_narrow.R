@@ -83,7 +83,7 @@ summlist_all_narrow <- reslist_all_narrow %>%
                             "competitive exclusion"))),
     condition=factor(condition,
                      levels=c("hyper", "meso"),
-                     labels=c("eutrophic", "mesotrophic"))
+                     labels=c("high-nutrient", "low-nutrient"))
   )
 
 g1 <- ggplot(summlist_all_narrow) +
