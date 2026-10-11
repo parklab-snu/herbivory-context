@@ -3,8 +3,9 @@ library(dplyr)
 library(ggplot2); theme_set(theme_bw(base_family = "Times"))
 library(egg)
 library(ggdensity)
+library(gridExtra)
 library(here)
-here::i_am("figure/figure_stanfit_default_niche.R")
+here::i_am("figure/figure_stanfit_default_niche_refactor.R")
 
 source(here::here("script", "script_diversity.R"))
 
@@ -86,23 +87,6 @@ summlist_all_refactor <- reslist_all_refactor %>%
                      labels=c("eutrophic", "mesotrophic"))
   )
 
-g1 <- ggplot(summlist_all_refactor) +
-  geom_bar(aes(treatment, tot/4000, fill=outcome), stat="identity") +
-  scale_y_continuous("Probability of competition outcome", expand=c(0, 0)) +
-  scale_fill_viridis_d(end=0.8) +
-  facet_grid(condition~pair, labeller = label_parsed) +
-  theme(
-    strip.background = element_blank(),
-    axis.text.x = element_text(angle=45, hjust=1),
-    axis.title.x = element_blank(),
-    legend.position = "top",
-    legend.title = element_blank(),
-    panel.grid = element_blank()
-  )
-
-ggsave(here::here("figure", "figure_stanfit_default_niche_refactor.pdf"), g1, width=6, height=6)
-ggsave(here::here("figure", "figure_stanfit_default_niche_refactor.png"), g1, width=6, height=6)
-
 reslist_all_refactor2 <- reslist_all_refactor %>%
   merge(select(fitdata_group, treatment, condition, group)) %>%
   mutate(
@@ -150,7 +134,7 @@ g2 <- ggplot(reslist_all_refactor2 %>% filter(pair=="italic(L.~minor)~vs~italic(
   coord_cartesian(xlim=c(-8, 8)) +
   scale_color_viridis_d(end=0.8) +
   facet_grid(condition~treatment) +
-  ggtitle("L. perpusilla vs S. polyrhiza") +
+  ggtitle("L. minor vs L. perpusilla") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
@@ -172,7 +156,7 @@ g3 <- ggplot(reslist_all_refactor2 %>% filter(pair=="italic(L.~minor)~vs~italic(
   coord_cartesian(xlim=c(-8, 8)) +
   scale_color_viridis_d(end=0.8) +
   facet_grid(condition~treatment) +
-  ggtitle("L. perpusilla vs S. polyrhiza") +
+  ggtitle("L. minor vs S. polyrhiza") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
@@ -206,11 +190,78 @@ gcomb <- ggarrange(g2, g3, g4, nrow=3, draw=FALSE)
 ggsave(here::here("figure", "figure_stanfit_default_niche_refactor2.pdf"), gcomb, width=18, height=12)
 ggsave(here::here("figure", "figure_stanfit_default_niche_refactor2.png"), gcomb, width=18, height=12)
 
-reslist_all_refactor3 <- reslist_all_refactor2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
-  filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))
+g1 <- ggplot(summlist_all_refactor) +
+  geom_bar(aes(treatment, tot/4000, fill=outcome), stat="identity") +
+  scale_y_continuous("Probability of competition outcome", expand=c(0, 0)) +
+  scale_fill_viridis_d(end=0.8) +
+  facet_grid(condition~pair, labeller = label_parsed) +
+  theme(
+    strip.background = element_blank(),
+    axis.text.x = element_text(angle=45, hjust=1),
+    axis.title.x = element_blank(),
+    legend.position = "top",
+    legend.title = element_blank(),
+    panel.grid = element_blank()
+  )
 
-g5_v2 <- ggplot(reslist_all_refactor2 %>% filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
-         filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE"))) +
+legend_grob <- ggplotGrob(
+  g1 + guides(fill = guide_legend(nrow = 1))
+)
+
+legend_index <- which(
+  grepl("^guide-box", legend_grob$layout$name) &
+    !vapply(legend_grob$grobs, inherits, logical(1), "zeroGrob")
+)
+
+outcome_legend <- legend_grob$grobs[[legend_index[1]]]
+
+g1_low <- ggplot(summlist_all_refactor %>% filter(condition=="mesotrophic")) +
+  geom_bar(aes(treatment, tot/4000, fill=outcome), stat="identity") +
+  scale_y_continuous("Probability of competition outcome", expand=c(0, 0)) +
+  scale_fill_viridis_d(end=0.8) +
+  facet_grid(~pair, labeller = label_parsed) +
+  labs(title = "low-nutrient") +
+  theme(
+    strip.background = element_blank(),
+    plot.title = element_text(hjust = 0.5),
+    axis.text.x = element_text(angle=90, hjust=1),
+    axis.title.x = element_blank(),
+    legend.position = "none",
+    panel.grid = element_blank()
+  )
+
+g1_high <- ggplot(summlist_all_refactor %>% filter(condition=="eutrophic")) +
+  geom_bar(aes(treatment, tot/4000, fill=outcome), stat="identity") +
+  scale_y_continuous("Probability of competition outcome", expand=c(0, 0)) +
+  scale_fill_viridis_d(end=0.8) +
+  facet_grid(~pair, labeller = label_parsed) +
+  labs(title = "high-nutrient") +
+  theme(
+    strip.background = element_blank(),
+    plot.title = element_text(hjust = 0.5),
+    axis.text.x = element_text(angle=90, hjust=1),
+    axis.title.x = element_blank(),
+    legend.position = "none",
+    panel.grid = element_blank()
+  )
+
+top_row <- egg::ggarrange(
+  g1_low, g1_high,
+  nrow = 1,
+  labels = c("a", "b"),
+  draw = FALSE
+)
+
+g5_bottom <- ggplot(reslist_all_refactor2 %>% 
+                  filter(pair=="italic(L.~perpusilla)~vs~italic(S.~polyrhiza)") %>%
+                  filter(treatment %in% c("no herbivore", "ETA", "ETAxTLExRNE")) %>%
+                  mutate(
+                    condition = factor(
+                      condition,
+                      levels = c("low-nutrient", "high-nutrient")
+                    )
+                  )
+                ) +
   geom_ribbon(data=plotdata1, aes(x, ymin=ymin, ymax=ymax), fill="gray70", alpha=0.5) +
   geom_ribbon(data=plotdata2, aes(x, ymin=ymin, ymax=ymax), fill="gray90", alpha=0.5) +
   geom_hdr(aes(log(1/rho), log(fdiff), fill = after_stat(probs)), alpha=1) +
@@ -227,9 +278,23 @@ g5_v2 <- ggplot(reslist_all_refactor2 %>% filter(pair=="italic(L.~perpusilla)~vs
   facet_grid(condition~treatment) +
   ggtitle("L. perpusilla vs S. polyrhiza") +
   theme(
+    plot.title = element_text(hjust = 0.5),
     panel.grid = element_blank(),
     strip.background = element_blank(),
     legend.position = "right"
   )
 
-ggsave(here::here("figure", "figure_stanfit_default_niche_subset_refactor_v2.pdf"), g5_v2, width=8, height=4)
+bottom_row <- egg::ggarrange(
+  g5_bottom,
+  labels = "c",
+  draw = FALSE
+)
+
+g_combined <- gridExtra::arrangeGrob(
+  top_row, bottom_row,
+  ncol = 1,
+  heights = c(1, 1.3),
+  top = outcome_legend
+)
+
+ggsave(here::here("figure", "figure_stanfit_default_niche_combined.pdf"), g_combined, width=12, height=10)

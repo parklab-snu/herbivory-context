@@ -150,7 +150,7 @@ g2 <- ggplot(reslist_all_wide2 %>% filter(pair=="italic(L.~minor)~vs~italic(L.~p
   coord_cartesian(xlim=c(-8, 8)) +
   scale_color_viridis_d(end=0.8) +
   facet_grid(condition~treatment) +
-  ggtitle("L. perpusilla vs S. polyrhiza") +
+  ggtitle("L.~minor vs L. perpusilla") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
@@ -172,7 +172,7 @@ g3 <- ggplot(reslist_all_wide2 %>% filter(pair=="italic(L.~minor)~vs~italic(S.~p
   coord_cartesian(xlim=c(-8, 8)) +
   scale_color_viridis_d(end=0.8) +
   facet_grid(condition~treatment) +
-  ggtitle("L. perpusilla vs S. polyrhiza") +
+  ggtitle("L. minor vs S. polyrhiza") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),

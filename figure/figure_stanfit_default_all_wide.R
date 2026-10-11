@@ -30,7 +30,10 @@ plotdata <- data.frame(
                               "ETA", "TLE", "RNE", 
                               "ETAxRNE", "ETAxTLE", "TLExRNE",
                               "ETAxTLExRNE")),
-    text=paste0(xvar,"~-~", species)
+    text=paste0(xvar,"~-~", species),
+    condition=factor(condition,
+                     levels=c("hyper", "meso"),
+                     labels=c("high-nutrient", "low-nutrient"))
   )
 
 plotdata_r <- data.frame(
@@ -46,36 +49,40 @@ plotdata_r <- data.frame(
                      levels=c("no herbivore", 
                               "ETA", "TLE", "RNE", 
                               "ETAxRNE", "ETAxTLE", "TLExRNE",
-                              "ETAxTLExRNE"))
+                              "ETAxTLExRNE")),
+    condition=factor(condition,
+                     levels=c("hyper", "meso"),
+                     labels=c("high-nutrient", "low-nutrient"))
   )
 
 g2 <- ggplot(plotdata) +
-  geom_point(aes(treatment, est, col=condition), position = position_dodge(width=0.3)) +
-  geom_errorbar(aes(treatment, ymin=lwr, ymax=upr, col=condition), width=0.2, position = position_dodge(width=0.3)) +
+  geom_point(aes(treatment, est, col=condition), position = position_dodge(width=0.7)) +
+  geom_errorbar(aes(treatment, ymin=lwr, ymax=upr, col=condition), width=0, position = position_dodge(width=0.7)) +
   geom_text(data=plotdata %>% group_by(text) %>% filter(1:n()==1), aes(0.5, 8.4, label=text), hjust=0, family="Times",
             size=3, parse=TRUE) +
   scale_x_discrete("Treatment") +
   scale_y_continuous("Compeitition coefficient", limits=c(0, NA)) +
   facet_grid(species~xvar) +
-  scale_color_manual(values=c("purple", "orange")) +
+  scale_color_manual(values=c("#2999DA", "#FDA601")) +
   theme(
     panel.grid = element_blank(),
     axis.text.x = element_text(angle=45, hjust=1),
     axis.title.x = element_blank(),
     legend.position = "top",
+    legend.title = element_blank(),
     strip.background = element_blank(),
     strip.text = element_blank()
   )
 
 g1 <- ggplot(plotdata_r) +
-  geom_point(aes(treatment, est, col=condition), position = position_dodge(width=0.3)) +
-  geom_errorbar(aes(treatment, ymin=lwr, ymax=upr, col=condition), width=0.2, position = position_dodge(width=0.3)) +
+  geom_point(aes(treatment, est, col=condition), position = position_dodge(width=0.7)) +
+  geom_errorbar(aes(treatment, ymin=lwr, ymax=upr, col=condition), width=0, position = position_dodge(width=0.7)) +
   geom_text(data=plotdata %>% group_by(species) %>% filter(1:n()==1), aes(0.5, 36, label=species), hjust=0, family="Times",
             size=3, parse=TRUE) +
   scale_x_discrete("Treatment") +
   scale_y_continuous("Intrinsic growth rate (1/day)") +
   facet_grid(species~.) +
-  scale_color_manual(values=c("purple", "orange")) +
+  scale_color_manual(values=c("#2999DA", "#FDA601")) +
   theme(
     panel.grid = element_blank(),
     axis.text.x = element_text(angle=45, hjust=1),
@@ -88,4 +95,4 @@ g1 <- ggplot(plotdata_r) +
 gcomb <- ggarrange(g1, g2, nrow=1, widths=c(1, 3),
                    labels=c("A", "B"))
 
-ggsave(here::here("figure", "figure_stanfit_default_all_wide.pdf"), gcomb, width=8, height=6)
+ggsave(here::here("figure", "figure_stanfit_default_all_wide.png"), gcomb, width=8, height=6)

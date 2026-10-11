@@ -5,6 +5,7 @@ library(egg)
 library(here)
 here::i_am("figure_prior/figure_prior.R")
 
+set.seed(101)
 nsim <- 20000
 
 reslist <- vector('list', nsim)
