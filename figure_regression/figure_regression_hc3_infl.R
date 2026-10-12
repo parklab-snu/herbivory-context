@@ -6,7 +6,7 @@ library(ggtext)
 library(car)
 library(flextable)
 library(here)
-here::i_am("figure_regression/figure_regression_hc3.R")
+here::i_am("figure_regression/figure_regression_infl.R")
 
 source(
   here::here(
