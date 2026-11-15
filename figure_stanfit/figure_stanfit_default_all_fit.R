@@ -18,9 +18,9 @@ ss <- summary(stanfit_default_all_refactor)
 plotdata <- data.frame(
   logr=fitdata$r,
   species=fitdata$species,
-  est=log(ss$summary[grepl("expected", rownames(ss$summary)),6]),
-  lwr=log(ss$summary[grepl("expected", rownames(ss$summary)),4]),
-  upr=log(ss$summary[grepl("expected", rownames(ss$summary)),8]),
+  est=log(ss$summary[grepl("expected", rownames(ss$summary)),"50%"]),
+  lwr=log(ss$summary[grepl("expected", rownames(ss$summary)),"2.5%"]),
+  upr=log(ss$summary[grepl("expected", rownames(ss$summary)),"97.5%"]),
   treatment=fitdata$treatment,
   condition=fitdata$condition
 ) %>%
